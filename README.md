@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @YundaeLeeSong
-- 👀 I’m interested in Mathematics and Computer Science, especially the field of computer vision and natural language processing.
+- 👀 I’m interested in Mathematics and Computer Science, especially the subject matter of computer vision and natural language processing.
 - 🌱 I’m currently learning python langauage for expertise in machine learning, deep learning, and text mining.
 - 💞️ I’m looking to collaborate on my own with several machines classifying the roles for a single project.
 - 📫 How to reach me: ydleesong@gmail.com
