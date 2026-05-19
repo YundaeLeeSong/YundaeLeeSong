@@ -21,5 +21,3 @@ Detailed project documentation, full professional experience, and technical insi
 ### Resources & References
 - [Full CV (Comprehensive)](https://yundaeleesong.github.io/references/cv-JaehoonSong.pdf)
 - [Technical Resume (Tech-focused)](https://yundaeleesong.github.io/references/resume-JaehoonSong.pdf)
-- [Legacy PDF Resume](https://github.com/YundaeLeeSong/ydjs-references/blob/main/document-resume/main.pdf)
-- [Online Portfolio](https://yundaeleesong.github.io/)
