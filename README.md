@@ -8,6 +8,14 @@ Detailed project documentation, full professional experience, and technical insi
 
 ---
 
+### Numerical Expertise Distribution
+
+<p align="center">
+  <img src="https://quickchart.io/chart?c={type:'doughnut',data:{labels:['Backend','Systems','Web','DevOps'],datasets:[{data:[40,30,15,15],backgroundColor:['%2300599C','%23239120','%23F7DF1E','%232671E5']}]},options:{plugins:{legend:{display:true,position:'bottom'},doughnutlabel:{labels:[{text:'Expertise',font:{size:20,weight:'bold'}}]}}}}" width="300" />
+</p>
+
+---
+
 ### Technical Expertise
 
 **Languages** — Experienced in developing robust systems using ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=c-sharp&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white) and ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E).
