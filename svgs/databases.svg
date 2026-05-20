@@ -2,9 +2,15 @@
 <style>
     .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
     .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    .legend.expert { font-weight: bold; fill: #b8860b; }
+    .legend.advanced { font-weight: 600; fill: #24292e; }
+    .legend.intermediate { font-weight: normal; }
+    .legend.beginner { font-style: italic; opacity: 0.8; }
     @media (prefers-color-scheme: dark) {
       .title { fill: #c9d1d9; }
       .legend { fill: #8b949e; }
+      .legend.expert { fill: #e3b341; }
+      .legend.advanced { fill: #c9d1d9; }
     }
     .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
     @media (prefers-color-scheme: dark) {
@@ -13,19 +19,19 @@
     .arc:hover { opacity: 0.8; }
   </style>
 <text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Databases</text>
-<g><title>SQLite (48)</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 200.62177826491072 160.0 L 174.64101615137756 145.0 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
-<g><title>MySQL (36)</title><path class="arc" d="M 200.62177826491072 160.0 A 70 70 0 0 1 105.00000000000001 185.62177826491072 L 120.0 159.64101615137756 A 40 40 0 0 0 174.64101615137756 145.0 Z" fill="#ED8B00" /></g>
-<g><title>Oracle (24)</title><path class="arc" d="M 105.00000000000001 185.62177826491072 A 70 70 0 0 1 70.0 125.00000000000001 L 100.0 125.0 A 40 40 0 0 0 120.0 159.64101615137756 Z" fill="#3670A0" /></g>
-<g><title>MS Access (24)</title><path class="arc" d="M 70.0 125.00000000000001 A 70 70 0 0 1 104.99999999999997 64.37822173508931 L 119.99999999999999 90.35898384862246 A 40 40 0 0 0 100.0 125.0 Z" fill="#239120" /></g>
-<g><title>Apache Derby (12)</title><path class="arc" d="M 104.99999999999997 64.37822173508931 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 119.99999999999999 90.35898384862246 Z" fill="#F7DF1E" /></g>
+<g><title>Oracle (36) - Advanced</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 194.9215985672456 168.40066832225426 L 171.38377060985465 149.800381898431 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>Apache Derby (24) - Advanced</title><path class="arc" d="M 194.9215985672456 168.40066832225426 A 70 70 0 0 1 100.99700767132003 183.12715879353584 L 117.71257581218288 158.2155193105919 A 40 40 0 0 0 171.38377060985465 149.800381898431 Z" fill="#ED8B00" /></g>
+<g><title>MS Access (18) - Advanced</title><path class="arc" d="M 100.99700767132003 183.12715879353584 A 70 70 0 0 1 70.68460629862312 115.23392627392543 L 100.39120359921321 119.41938644224311 A 40 40 0 0 0 117.71257581218288 158.2155193105919 Z" fill="#3670A0" /></g>
+<g><title>SQLite (15) - Intermediate</title><path class="arc" d="M 70.68460629862312 115.23392627392543 A 70 70 0 0 1 106.58294219642104 63.49146199305122 L 120.9045383979549 89.85226399602927 A 40 40 0 0 0 100.39120359921321 119.41938644224311 Z" fill="#239120" /></g>
+<g><title>MySQL (8) - Intermediate</title><path class="arc" d="M 106.58294219642104 63.49146199305122 A 70 70 0 0 1 139.99999999999991 55.0 L 139.99999999999994 85.0 A 40 40 0 0 0 120.9045383979549 89.85226399602927 Z" fill="#F7DF1E" /></g>
 <rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
-<text class="legend" x="24.0" y="220">SQLite (48)</text>
+<text class="legend advanced" x="24.0" y="220">Oracle (36)</text>
 <rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
-<text class="legend" x="164.0" y="220">MySQL (36)</text>
+<text class="legend advanced" x="164.0" y="220">Apache Derby (24)</text>
 <rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
-<text class="legend" x="24.0" y="240">Oracle (24)</text>
+<text class="legend advanced" x="24.0" y="240">MS Access (18)</text>
 <rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
-<text class="legend" x="164.0" y="240">MS Access (24)</text>
+<text class="legend intermediate" x="164.0" y="240">SQLite (15)</text>
 <rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
-<text class="legend" x="24.0" y="260">Apache Derby (12)</text>
+<text class="legend intermediate" x="24.0" y="260">MySQL (8)</text>
 </svg>

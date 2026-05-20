@@ -1,10 +1,16 @@
-<svg width="280" height="310" viewBox="0 0 280 310" xmlns="http://www.w3.org/2000/svg">
+<svg width="280" height="290" viewBox="0 0 280 290" xmlns="http://www.w3.org/2000/svg">
 <style>
     .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
     .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    .legend.expert { font-weight: bold; fill: #b8860b; }
+    .legend.advanced { font-weight: 600; fill: #24292e; }
+    .legend.intermediate { font-weight: normal; }
+    .legend.beginner { font-style: italic; opacity: 0.8; }
     @media (prefers-color-scheme: dark) {
       .title { fill: #c9d1d9; }
       .legend { fill: #8b949e; }
+      .legend.expert { fill: #e3b341; }
+      .legend.advanced { fill: #c9d1d9; }
     }
     .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
     @media (prefers-color-scheme: dark) {
@@ -13,25 +19,19 @@
     .arc:hover { opacity: 0.8; }
   </style>
 <text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Web Development with Jakarta EE</text>
-<g><title>JDBC (36)</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 204.67156727579007 98.21215973444372 L 176.95518130045147 109.6926627053964 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
-<g><title>HTTP (36)</title><path class="arc" d="M 204.67156727579007 98.21215973444372 A 70 70 0 0 1 189.49747468305833 174.49747468305833 L 168.2842712474619 153.2842712474619 A 40 40 0 0 0 176.95518130045147 109.6926627053964 Z" fill="#ED8B00" /></g>
-<g><title>JSP (24)</title><path class="arc" d="M 189.49747468305833 174.49747468305833 A 70 70 0 0 1 140.0 195.0 L 140.0 165.0 A 40 40 0 0 0 168.2842712474619 153.2842712474619 Z" fill="#3670A0" /></g>
-<g><title>Servlets (24)</title><path class="arc" d="M 140.0 195.0 A 70 70 0 0 1 90.50252531694167 174.49747468305833 L 111.7157287525381 153.2842712474619 A 40 40 0 0 0 140.0 165.0 Z" fill="#239120" /></g>
-<g><title>SOAP (24)</title><path class="arc" d="M 90.50252531694167 174.49747468305833 A 70 70 0 0 1 70.0 125.00000000000001 L 100.0 125.0 A 40 40 0 0 0 111.7157287525381 153.2842712474619 Z" fill="#F7DF1E" /></g>
-<g><title>XML (24)</title><path class="arc" d="M 70.0 125.00000000000001 A 70 70 0 0 1 90.50252531694167 75.50252531694167 L 111.7157287525381 96.7157287525381 A 40 40 0 0 0 100.0 125.0 Z" fill="#5C2D91" /></g>
-<g><title>MVC Architecture (24)</title><path class="arc" d="M 90.50252531694167 75.50252531694167 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 111.7157287525381 96.7157287525381 Z" fill="#E34F26" /></g>
+<g><title>JDBC (48) - Expert</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 204.104132865854 153.11867972570786 L 176.63093306620232 141.06781698611877 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>MVC Architecture (48) - Expert</title><path class="arc" d="M 204.104132865854 153.11867972570786 A 70 70 0 0 1 88.4993262528808 172.40971001380188 L 110.57104357307475 152.09126286502965 A 40 40 0 0 0 176.63093306620232 141.06781698611877 Z" fill="#ED8B00" /></g>
+<g><title>SOAP (20) - Advanced</title><path class="arc" d="M 88.4993262528808 172.40971001380188 A 70 70 0 0 1 70.23908548953311 119.21944581693676 L 100.13662027973321 121.69682618110672 A 40 40 0 0 0 110.57104357307475 152.09126286502965 Z" fill="#3670A0" /></g>
+<g><title>JSP (18) - Advanced</title><path class="arc" d="M 70.23908548953311 119.21944581693676 A 70 70 0 0 1 92.5902899861981 73.49932625288082 L 112.90873713497035 95.57104357307475 A 40 40 0 0 0 100.13662027973321 121.69682618110672 Z" fill="#239120" /></g>
+<g><title>Servlets (18) - Advanced</title><path class="arc" d="M 92.5902899861981 73.49932625288082 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 112.90873713497035 95.57104357307475 Z" fill="#F7DF1E" /></g>
 <rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
-<text class="legend" x="24.0" y="220">JDBC (36)</text>
+<text class="legend expert" x="24.0" y="220">JDBC (48)</text>
 <rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
-<text class="legend" x="164.0" y="220">HTTP (36)</text>
+<text class="legend expert" x="164.0" y="220">MVC Architecture (48)</text>
 <rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
-<text class="legend" x="24.0" y="240">JSP (24)</text>
+<text class="legend advanced" x="24.0" y="240">SOAP (20)</text>
 <rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
-<text class="legend" x="164.0" y="240">Servlets (24)</text>
+<text class="legend advanced" x="164.0" y="240">JSP (18)</text>
 <rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
-<text class="legend" x="24.0" y="260">SOAP (24)</text>
-<rect x="150.0" y="252" width="8" height="8" fill="#5C2D91" rx="2" />
-<text class="legend" x="164.0" y="260">XML (24)</text>
-<rect x="10.0" y="272" width="8" height="8" fill="#E34F26" rx="2" />
-<text class="legend" x="24.0" y="280">MVC Architecture (24)</text>
+<text class="legend advanced" x="24.0" y="260">Servlets (18)</text>
 </svg>

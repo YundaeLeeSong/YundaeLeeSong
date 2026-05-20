@@ -18,7 +18,7 @@
     }
     .arc:hover { opacity: 0.8; }
   </style>
-<text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">AI &amp; IDEs</text>
+<text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">AI-Assisted Development</text>
 <g><title>OpenAI API (24) - Advanced</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 209.83681384333772 129.77696893552695 L 179.90675076762156 127.72969653458684 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
 <g><title>Copilot Agent (24) - Advanced</title><path class="arc" d="M 209.83681384333772 129.77696893552695 A 70 70 0 0 1 130.46833456326274 194.34801622254315 L 134.55333403615015 164.62743784145323 A 40 40 0 0 0 179.90675076762156 127.72969653458684 Z" fill="#ED8B00" /></g>
 <g><title>Cursor IDE (12) - Intermediate</title><path class="arc" d="M 130.46833456326274 194.34801622254315 A 70 70 0 0 1 82.81210748926907 165.3676225480407 L 107.32120427958232 148.06721288459468 A 40 40 0 0 0 134.55333403615015 164.62743784145323 Z" fill="#3670A0" /></g>

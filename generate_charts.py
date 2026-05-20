@@ -3,6 +3,16 @@ import math
 import os
 import re
 
+def get_proficiency(exp):
+    if exp >= 48:
+        return 'Expert'
+    elif exp >= 18:
+        return 'Advanced'
+    elif exp >= 8:
+        return 'Intermediate'
+    else:
+        return 'Beginner'
+
 def create_donut_svg(data, title, colors, filename):
     total = sum(d['value'] for d in data)
     if total == 0:
@@ -26,9 +36,15 @@ def create_donut_svg(data, title, colors, filename):
     svg += '''<style>
     .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
     .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    .legend.expert { font-weight: bold; fill: #b8860b; }
+    .legend.advanced { font-weight: 600; fill: #24292e; }
+    .legend.intermediate { font-weight: normal; }
+    .legend.beginner { font-style: italic; opacity: 0.8; }
     @media (prefers-color-scheme: dark) {
       .title { fill: #c9d1d9; }
       .legend { fill: #8b949e; }
+      .legend.expert { fill: #e3b341; }
+      .legend.advanced { fill: #c9d1d9; }
     }
     .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
     @media (prefers-color-scheme: dark) {
@@ -70,7 +86,8 @@ def create_donut_svg(data, title, colors, filename):
         
         path = f'<path class="arc" d="M {x1} {y1} A {radius} {radius} 0 {large_arc_flag} 1 {x2} {y2} L {x3} {y3} A {inner_radius} {inner_radius} 0 {large_arc_flag} 0 {x4} {y4} Z" fill="{color}" />'
         
-        path = f'<g><title>{item["label"]}</title>{path}</g>\n'
+        title_text = f'{item["label"]} - {item.get("proficiency", "Unknown")}'
+        path = f'<g><title>{title_text}</title>{path}</g>\n'
         svg += path
         current_angle = next_angle
         
@@ -86,7 +103,8 @@ def create_donut_svg(data, title, colors, filename):
         label = item["label"]
         if len(label) > 23:
             label = label[:20] + "..."
-        svg += f'<text class="legend" x="{lx + 14}" y="{ly}">{label}</text>\n'
+        prof_class = item.get("proficiency", "").lower()
+        svg += f'<text class="legend {prof_class}" x="{lx + 14}" y="{ly}">{label}</text>\n'
         
     svg += '</svg>'
     
@@ -107,15 +125,15 @@ def main():
     
     for cat in categories:
         cat_name = cat.get('name')
-        items = cat.get('stack', []) # Using the updated "stack" key instead of "categories"
+        items = cat.get('stack', [])
         
         chart_data = []
         for item in items:
             name = item.get('name')
             exp = item.get('length_of_exp', 0)
+            prof = get_proficiency(exp)
             if exp > 0:
-                # Add the length_of_exp value directly into the label format like "Android Studio (48)"
-                chart_data.append({'label': f"{name} ({exp})", 'value': exp})
+                chart_data.append({'label': f"{name} ({exp})", 'value': exp, 'proficiency': prof})
         
         if chart_data:
             chart_data.sort(key=lambda x: x['value'], reverse=True)

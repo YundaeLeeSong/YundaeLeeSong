@@ -1,10 +1,16 @@
-<svg width="280" height="290" viewBox="0 0 280 290" xmlns="http://www.w3.org/2000/svg">
+<svg width="280" height="310" viewBox="0 0 280 310" xmlns="http://www.w3.org/2000/svg">
 <style>
     .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
     .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    .legend.expert { font-weight: bold; fill: #b8860b; }
+    .legend.advanced { font-weight: 600; fill: #24292e; }
+    .legend.intermediate { font-weight: normal; }
+    .legend.beginner { font-style: italic; opacity: 0.8; }
     @media (prefers-color-scheme: dark) {
       .title { fill: #c9d1d9; }
       .legend { fill: #8b949e; }
+      .legend.expert { fill: #e3b341; }
+      .legend.advanced { fill: #c9d1d9; }
     }
     .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
     @media (prefers-color-scheme: dark) {
@@ -13,19 +19,28 @@
     .arc:hover { opacity: 0.8; }
   </style>
 <text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Web Development with Angular</text>
-<g><title>HTML/CSS (48)</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 209.61653267577913 132.31699242873574 L 179.78087581473093 129.18113853070614 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
-<g><title>JavaScript (36)</title><path class="arc" d="M 209.61653267577913 132.31699242873574 A 70 70 0 0 1 154.55381835724316 193.47033205136637 L 148.31646763271038 164.12590402935223 A 40 40 0 0 0 179.78087581473093 129.18113853070614 Z" fill="#ED8B00" /></g>
-<g><title>TypeScript (36)</title><path class="arc" d="M 154.55381835724316 193.47033205136637 A 70 70 0 0 1 79.37822173508931 160.00000000000003 L 105.35898384862246 145.0 A 40 40 0 0 0 148.31646763271038 164.12590402935223 Z" fill="#3670A0" /></g>
-<g><title>Bootstrap (SASS) (36)</title><path class="arc" d="M 79.37822173508931 160.00000000000003 A 70 70 0 0 1 87.97986221658239 78.16085755487995 L 110.27420698090422 98.23477574564569 A 40 40 0 0 0 105.35898384862246 145.0 Z" fill="#239120" /></g>
-<g><title>Angular (24)</title><path class="arc" d="M 87.97986221658239 78.16085755487995 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 110.27420698090422 98.23477574564569 Z" fill="#F7DF1E" /></g>
+<g><title>TypeScript (36) - Advanced</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 209.70139234065243 131.45878516243113 L 179.8293670518014 128.69073437853208 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>HTML-CSS (30) - Advanced</title><path class="arc" d="M 209.70139234065243 131.45878516243113 A 70 70 0 0 1 146.45878516243116 194.70139234065243 L 143.69073437853208 164.82936705180137 A 40 40 0 0 0 179.8293670518014 128.69073437853208 Z" fill="#ED8B00" /></g>
+<g><title>JavaScript (24) - Advanced</title><path class="arc" d="M 146.45878516243116 194.70139234065243 A 70 70 0 0 1 80.48480049892703 161.85025140141494 L 105.99131457081543 146.05728651509423 A 40 40 0 0 0 143.69073437853208 164.82936705180137 Z" fill="#3670A0" /></g>
+<g><title>SASS-SCSS (16) - Intermediate</title><path class="arc" d="M 80.48480049892703 161.85025140141494 A 70 70 0 0 1 71.19188302212687 112.13753375284008 L 100.68107601264393 117.6500192873372 A 40 40 0 0 0 105.99131457081543 146.05728651509423 Z" fill="#239120" /></g>
+<g><title>Bootstrap (16) - Intermediate</title><path class="arc" d="M 71.19188302212687 112.13753375284008 A 70 70 0 0 1 97.81557545345204 69.13879409038324 L 115.89461454482974 93.07931090879043 A 40 40 0 0 0 100.68107601264393 117.6500192873372 Z" fill="#F7DF1E" /></g>
+<g><title>Jest (8) - Intermediate</title><path class="arc" d="M 97.81557545345204 69.13879409038324 A 70 70 0 0 1 120.84359069495419 57.672204977902666 L 129.0534803971167 86.52697427308723 A 40 40 0 0 0 115.89461454482974 93.07931090879043 Z" fill="#5C2D91" /></g>
+<g><title>Angular (3) - Beginner</title><path class="arc" d="M 120.84359069495419 57.672204977902666 A 70 70 0 0 1 130.32905515336824 55.67126983873564 L 134.4737458019247 85.3835827649918 A 40 40 0 0 0 129.0534803971167 86.52697427308723 Z" fill="#E34F26" /></g>
+<g><title>RxJS (3) - Beginner</title><path class="arc" d="M 130.32905515336824 55.67126983873564 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 134.4737458019247 85.3835827649918 Z" fill="#41B883" /></g>
 <rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
-<text class="legend" x="24.0" y="220">HTML/CSS (48)</text>
+<text class="legend advanced" x="24.0" y="220">TypeScript (36)</text>
 <rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
-<text class="legend" x="164.0" y="220">JavaScript (36)</text>
+<text class="legend advanced" x="164.0" y="220">HTML-CSS (30)</text>
 <rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
-<text class="legend" x="24.0" y="240">TypeScript (36)</text>
+<text class="legend advanced" x="24.0" y="240">JavaScript (24)</text>
 <rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
-<text class="legend" x="164.0" y="240">Bootstrap (SASS) (36)</text>
+<text class="legend intermediate" x="164.0" y="240">SASS-SCSS (16)</text>
 <rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
-<text class="legend" x="24.0" y="260">Angular (24)</text>
+<text class="legend intermediate" x="24.0" y="260">Bootstrap (16)</text>
+<rect x="150.0" y="252" width="8" height="8" fill="#5C2D91" rx="2" />
+<text class="legend intermediate" x="164.0" y="260">Jest (8)</text>
+<rect x="10.0" y="272" width="8" height="8" fill="#E34F26" rx="2" />
+<text class="legend beginner" x="24.0" y="280">Angular (3)</text>
+<rect x="150.0" y="272" width="8" height="8" fill="#41B883" rx="2" />
+<text class="legend beginner" x="164.0" y="280">RxJS (3)</text>
 </svg>

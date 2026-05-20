@@ -1,0 +1,46 @@
+<svg width="280" height="310" viewBox="0 0 280 310" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
+    .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    .legend.expert { font-weight: bold; fill: #b8860b; }
+    .legend.advanced { font-weight: 600; fill: #24292e; }
+    .legend.intermediate { font-weight: normal; }
+    .legend.beginner { font-style: italic; opacity: 0.8; }
+    @media (prefers-color-scheme: dark) {
+      .title { fill: #c9d1d9; }
+      .legend { fill: #8b949e; }
+      .legend.expert { fill: #e3b341; }
+      .legend.advanced { fill: #c9d1d9; }
+    }
+    .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
+    @media (prefers-color-scheme: dark) {
+      .arc { stroke: #0d1117; }
+    }
+    .arc:hover { opacity: 0.8; }
+  </style>
+<text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Infrastructure-DevOps</text>
+<g><title>VMware (VM) (50) - Expert</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 198.5147835593046 163.41900707993034 L 173.43701917674548 146.95371833138876 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>Docker (Container) (48) - Expert</title><path class="arc" d="M 198.5147835593046 163.41900707993034 A 70 70 0 0 1 78.39914572185253 158.24657504469357 L 104.79951184105859 143.99804288268203 A 40 40 0 0 0 173.43701917674548 146.95371833138876 Z" fill="#ED8B00" /></g>
+<g><title>OCI (10) - Intermediate</title><path class="arc" d="M 78.39914572185253 158.24657504469357 A 70 70 0 0 1 70.14579873942255 129.5155914614522 L 100.08331356538432 127.58033797797269 A 40 40 0 0 0 104.79951184105859 143.99804288268203 Z" fill="#3670A0" /></g>
+<g><title>PaaS (Dokku) (8) - Intermediate</title><path class="arc" d="M 70.14579873942255 129.5155914614522 A 70 70 0 0 1 72.72091512893893 105.67321188317723 L 101.55480864510795 113.95612107610128 A 40 40 0 0 0 100.08331356538432 127.58033797797269 Z" fill="#239120" /></g>
+<g><title>Nginx (8) - Intermediate</title><path class="arc" d="M 72.72091512893893 105.67321188317723 A 70 70 0 0 1 83.19226586948469 84.09912784601426 L 107.53843763970553 101.6280730548653 A 40 40 0 0 0 101.55480864510795 113.95612107610128 Z" fill="#F7DF1E" /></g>
+<g><title>Linux Administration (8) - Intermediate</title><path class="arc" d="M 83.19226586948469 84.09912784601426 A 70 70 0 0 1 100.33087705962171 67.32538959697125 L 117.33192974835526 92.04307976969785 A 40 40 0 0 0 107.53843763970553 101.6280730548653 Z" fill="#5C2D91" /></g>
+<g><title>Gunicorn (7) - Beginner</title><path class="arc" d="M 100.33087705962171 67.32538959697125 A 70 70 0 0 1 119.23010265085559 58.152327160132174 L 128.13148722906033 86.8013298057898 A 40 40 0 0 0 117.33192974835526 92.04307976969785 Z" fill="#E34F26" /></g>
+<g><title>Waitress (7) - Beginner</title><path class="arc" d="M 119.23010265085559 58.152327160132174 A 70 70 0 0 1 139.99999999999986 55.0 L 139.99999999999991 85.0 A 40 40 0 0 0 128.13148722906033 86.8013298057898 Z" fill="#41B883" /></g>
+<rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
+<text class="legend expert" x="24.0" y="220">VMware (VM) (50)</text>
+<rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
+<text class="legend expert" x="164.0" y="220">Docker (Container) (48)</text>
+<rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
+<text class="legend intermediate" x="24.0" y="240">OCI (10)</text>
+<rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
+<text class="legend intermediate" x="164.0" y="240">PaaS (Dokku) (8)</text>
+<rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
+<text class="legend intermediate" x="24.0" y="260">Nginx (8)</text>
+<rect x="150.0" y="252" width="8" height="8" fill="#5C2D91" rx="2" />
+<text class="legend intermediate" x="164.0" y="260">Linux Administration...</text>
+<rect x="10.0" y="272" width="8" height="8" fill="#E34F26" rx="2" />
+<text class="legend beginner" x="24.0" y="280">Gunicorn (7)</text>
+<rect x="150.0" y="272" width="8" height="8" fill="#41B883" rx="2" />
+<text class="legend beginner" x="164.0" y="280">Waitress (7)</text>
+</svg>

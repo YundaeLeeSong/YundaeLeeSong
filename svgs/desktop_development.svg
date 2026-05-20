@@ -2,9 +2,15 @@
 <style>
     .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
     .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    .legend.expert { font-weight: bold; fill: #b8860b; }
+    .legend.advanced { font-weight: 600; fill: #24292e; }
+    .legend.intermediate { font-weight: normal; }
+    .legend.beginner { font-style: italic; opacity: 0.8; }
     @media (prefers-color-scheme: dark) {
       .title { fill: #c9d1d9; }
       .legend { fill: #8b949e; }
+      .legend.expert { fill: #e3b341; }
+      .legend.advanced { fill: #c9d1d9; }
     }
     .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
     @media (prefers-color-scheme: dark) {
@@ -13,19 +19,19 @@
     .arc:hover { opacity: 0.8; }
   </style>
 <text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Desktop Development</text>
-<g><title>MVC Architecture (48)</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 208.24495385272763 140.576465376942 L 178.99711648727293 133.90083735825257 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
-<g><title>Qt (C++) (36)</title><path class="arc" d="M 208.24495385272763 140.576465376942 A 70 70 0 0 1 140.0 195.0 L 140.0 165.0 A 40 40 0 0 0 178.99711648727293 133.90083735825257 Z" fill="#ED8B00" /></g>
-<g><title>JavaFX-Swing (Java) (36)</title><path class="arc" d="M 140.0 195.0 A 70 70 0 0 1 71.75504614727235 140.57646537694202 L 101.00288351272705 133.90083735825257 A 40 40 0 0 0 140.0 165.0 Z" fill="#3670A0" /></g>
-<g><title>WinForms (C#) (24)</title><path class="arc" d="M 71.75504614727235 140.57646537694202 A 70 70 0 0 1 85.2717962272379 81.35571386988866 L 108.7267407012788 100.06040792565067 A 40 40 0 0 0 101.00288351272705 133.90083735825257 Z" fill="#239120" /></g>
-<g><title>PyQt (Python) (24)</title><path class="arc" d="M 85.2717962272379 81.35571386988866 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 108.7267407012788 100.06040792565067 Z" fill="#F7DF1E" /></g>
+<g><title>JavaFX-Swing (48) - Expert</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 187.61209164396436 176.31363102808783 L 167.2069095108368 154.32207487319306 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>MVC Architecture (48) - Expert</title><path class="arc" d="M 187.61209164396436 176.31363102808783 A 70 70 0 0 1 70.19573419731738 119.76889344895035 L 100.1118481127528 122.01079625654306 A 40 40 0 0 0 167.2069095108368 154.32207487319306 Z" fill="#ED8B00" /></g>
+<g><title>Qt (C++) (12) - Intermediate</title><path class="arc" d="M 70.19573419731738 119.76889344895035 A 70 70 0 0 1 85.27179622723787 81.35571386988872 L 108.72674070127879 100.0604079256507 A 40 40 0 0 0 100.1118481127528 122.01079625654306 Z" fill="#3670A0" /></g>
+<g><title>PyQt (Python) (12) - Intermediate</title><path class="arc" d="M 85.27179622723787 81.35571386988872 A 70 70 0 0 1 119.36713779123662 58.10990359497018 L 128.20979302356378 86.7770877685544 A 40 40 0 0 0 108.72674070127879 100.0604079256507 Z" fill="#239120" /></g>
+<g><title>WinForms (C#) (6) - Beginner</title><path class="arc" d="M 119.36713779123662 58.10990359497018 A 70 70 0 0 1 139.99999999999991 55.0 L 139.99999999999994 85.0 A 40 40 0 0 0 128.20979302356378 86.7770877685544 Z" fill="#F7DF1E" /></g>
 <rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
-<text class="legend" x="24.0" y="220">MVC Architecture (48)</text>
+<text class="legend expert" x="24.0" y="220">JavaFX-Swing (48)</text>
 <rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
-<text class="legend" x="164.0" y="220">Qt (C++) (36)</text>
+<text class="legend expert" x="164.0" y="220">MVC Architecture (48)</text>
 <rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
-<text class="legend" x="24.0" y="240">JavaFX-Swing (Java) ...</text>
+<text class="legend intermediate" x="24.0" y="240">Qt (C++) (12)</text>
 <rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
-<text class="legend" x="164.0" y="240">WinForms (C#) (24)</text>
+<text class="legend intermediate" x="164.0" y="240">PyQt (Python) (12)</text>
 <rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
-<text class="legend" x="24.0" y="260">PyQt (Python) (24)</text>
+<text class="legend beginner" x="24.0" y="260">WinForms (C#) (6)</text>
 </svg>

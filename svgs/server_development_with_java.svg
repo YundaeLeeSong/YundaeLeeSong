@@ -1,10 +1,16 @@
-<svg width="280" height="290" viewBox="0 0 280 290" xmlns="http://www.w3.org/2000/svg">
+<svg width="280" height="310" viewBox="0 0 280 310" xmlns="http://www.w3.org/2000/svg">
 <style>
     .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
     .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    .legend.expert { font-weight: bold; fill: #b8860b; }
+    .legend.advanced { font-weight: 600; fill: #24292e; }
+    .legend.intermediate { font-weight: normal; }
+    .legend.beginner { font-style: italic; opacity: 0.8; }
     @media (prefers-color-scheme: dark) {
       .title { fill: #c9d1d9; }
       .legend { fill: #8b949e; }
+      .legend.expert { fill: #e3b341; }
+      .legend.advanced { fill: #c9d1d9; }
     }
     .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
     @media (prefers-color-scheme: dark) {
@@ -13,22 +19,28 @@
     .arc:hover { opacity: 0.8; }
   </style>
 <text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Server Development with Java</text>
-<g><title>HTTP (48)</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 208.93654271085455 112.84462756331487 L 179.39231012048833 118.05407289332278 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
-<g><title>JSON (48)</title><path class="arc" d="M 208.93654271085455 112.84462756331487 A 70 70 0 0 1 163.94141003279682 190.7784834550136 L 153.68080573302674 162.58770483143633 A 40 40 0 0 0 179.39231012048833 118.05407289332278 Z" fill="#ED8B00" /></g>
-<g><title>JDBC (36)</title><path class="arc" d="M 163.94141003279682 190.7784834550136 A 70 70 0 0 1 95.00486732194224 178.62311101832847 L 114.28849561253843 155.64177772475912 A 40 40 0 0 0 153.68080573302674 162.58770483143633 Z" fill="#3670A0" /></g>
-<g><title>RESTful APIs (36)</title><path class="arc" d="M 95.00486732194224 178.62311101832847 A 70 70 0 0 1 71.06345728914543 112.8446275633149 L 100.60768987951167 118.0540728933228 A 40 40 0 0 0 114.28849561253843 155.64177772475912 Z" fill="#239120" /></g>
-<g><title>Javalin (24)</title><path class="arc" d="M 71.06345728914543 112.8446275633149 A 70 70 0 0 1 95.00486732194224 71.37688898167156 L 114.28849561253841 94.35822227524088 A 40 40 0 0 0 100.60768987951167 118.0540728933228 Z" fill="#F7DF1E" /></g>
-<g><title>Middleware (24)</title><path class="arc" d="M 95.00486732194224 71.37688898167156 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 114.28849561253841 94.35822227524088 Z" fill="#5C2D91" /></g>
+<g><title>JDBC (48) - Expert</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 208.07357212719714 141.30916238938372 L 178.89918407268408 134.31952136536214 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>SQL (36) - Advanced</title><path class="arc" d="M 208.07357212719714 141.30916238938372 A 70 70 0 0 1 138.6832424234774 194.98761425770041 L 139.24756709912995 164.99292243297168 A 40 40 0 0 0 178.89918407268408 134.31952136536214 Z" fill="#ED8B00" /></g>
+<g><title>JUnit (36) - Advanced</title><path class="arc" d="M 138.6832424234774 194.98761425770041 A 70 70 0 0 1 71.3611341848689 138.737033872435 L 100.77779096278223 132.84973364139142 A 40 40 0 0 0 139.24756709912995 164.99292243297168 Z" fill="#3670A0" /></g>
+<g><title>RESTful APIs (30) - Advanced</title><path class="arc" d="M 71.3611341848689 138.737033872435 A 70 70 0 0 1 98.21846156303785 68.83681770197975 L 116.12483517887877 92.90675297255986 A 40 40 0 0 0 100.77779096278223 132.84973364139142 Z" fill="#239120" /></g>
+<g><title>Apache Tomcat (8) - Intermediate</title><path class="arc" d="M 98.21846156303785 68.83681770197975 A 70 70 0 0 1 116.74734069673241 58.97489995974135 L 126.71276611241852 87.27137140556648 A 40 40 0 0 0 116.12483517887877 92.90675297255986 Z" fill="#F7DF1E" /></g>
+<g><title>Javalin (3) - Beginner</title><path class="arc" d="M 116.74734069673241 58.97489995974135 A 70 70 0 0 1 124.33184732450972 56.7760379944295 L 131.04676989971983 86.01487885395971 A 40 40 0 0 0 126.71276611241852 87.27137140556648 Z" fill="#5C2D91" /></g>
+<g><title>Netty (3) - Beginner</title><path class="arc" d="M 124.33184732450972 56.7760379944295 A 70 70 0 0 1 132.1157543287241 55.44542667663781 L 135.49471675927091 85.25452952950732 A 40 40 0 0 0 131.04676989971983 86.01487885395971 Z" fill="#E34F26" /></g>
+<g><title>Mockito (3) - Beginner</title><path class="arc" d="M 132.1157543287241 55.44542667663781 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 135.49471675927091 85.25452952950732 Z" fill="#41B883" /></g>
 <rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
-<text class="legend" x="24.0" y="220">HTTP (48)</text>
+<text class="legend expert" x="24.0" y="220">JDBC (48)</text>
 <rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
-<text class="legend" x="164.0" y="220">JSON (48)</text>
+<text class="legend advanced" x="164.0" y="220">SQL (36)</text>
 <rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
-<text class="legend" x="24.0" y="240">JDBC (36)</text>
+<text class="legend advanced" x="24.0" y="240">JUnit (36)</text>
 <rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
-<text class="legend" x="164.0" y="240">RESTful APIs (36)</text>
+<text class="legend advanced" x="164.0" y="240">RESTful APIs (30)</text>
 <rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
-<text class="legend" x="24.0" y="260">Javalin (24)</text>
+<text class="legend intermediate" x="24.0" y="260">Apache Tomcat (8)</text>
 <rect x="150.0" y="252" width="8" height="8" fill="#5C2D91" rx="2" />
-<text class="legend" x="164.0" y="260">Middleware (24)</text>
+<text class="legend beginner" x="164.0" y="260">Javalin (3)</text>
+<rect x="10.0" y="272" width="8" height="8" fill="#E34F26" rx="2" />
+<text class="legend beginner" x="24.0" y="280">Netty (3)</text>
+<rect x="150.0" y="272" width="8" height="8" fill="#41B883" rx="2" />
+<text class="legend beginner" x="164.0" y="280">Mockito (3)</text>
 </svg>

@@ -2,9 +2,15 @@
 <style>
     .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
     .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    .legend.expert { font-weight: bold; fill: #b8860b; }
+    .legend.advanced { font-weight: 600; fill: #24292e; }
+    .legend.intermediate { font-weight: normal; }
+    .legend.beginner { font-style: italic; opacity: 0.8; }
     @media (prefers-color-scheme: dark) {
       .title { fill: #c9d1d9; }
       .legend { fill: #8b949e; }
+      .legend.expert { fill: #e3b341; }
+      .legend.advanced { fill: #c9d1d9; }
     }
     .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
     @media (prefers-color-scheme: dark) {
@@ -13,28 +19,25 @@
     .arc:hover { opacity: 0.8; }
   </style>
 <text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Server Development with Spring Boot</text>
-<g><title>Spring Core (36)</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 198.601653478377 86.71362893143012 L 173.48665913050115 103.12207367510292 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
-<g><title>Spring Web (36)</title><path class="arc" d="M 198.601653478377 86.71362893143012 A 70 70 0 0 1 204.104132865854 153.11867972570786 L 176.63093306620232 141.06781698611877 A 40 40 0 0 0 173.48665913050115 103.12207367510292 Z" fill="#ED8B00" /></g>
-<g><title>Spring MVC (36)</title><path class="arc" d="M 204.104132865854 153.11867972570786 A 70 70 0 0 1 151.5216213196514 194.04529123819054 L 146.58378361122936 164.4544521361089 A 40 40 0 0 0 176.63093306620232 141.06781698611877 Z" fill="#3670A0" /></g>
-<g><title>RESTful APIs (36)</title><path class="arc" d="M 151.5216213196514 194.04529123819054 A 70 70 0 0 1 88.4993262528808 172.40971001380188 L 110.57104357307475 152.09126286502965 A 40 40 0 0 0 146.58378361122936 164.4544521361089 Z" fill="#239120" /></g>
-<g><title>Spring Data JPA (24)</title><path class="arc" d="M 88.4993262528808 172.40971001380188 A 70 70 0 0 1 70.23908548953311 130.7805541830633 L 100.13662027973321 128.3031738188933 A 40 40 0 0 0 110.57104357307475 152.09126286502965 Z" fill="#F7DF1E" /></g>
-<g><title>Spring Testing (24)</title><path class="arc" d="M 70.23908548953311 130.7805541830633 A 70 70 0 0 1 81.39834652162298 86.71362893143014 L 106.51334086949885 103.12207367510294 A 40 40 0 0 0 100.13662027973321 128.3031738188933 Z" fill="#5C2D91" /></g>
-<g><title>Microservices (24)</title><path class="arc" d="M 81.39834652162298 86.71362893143014 A 70 70 0 0 1 117.27103715567215 58.792793080955576 L 127.01202123181265 87.16731033197462 A 40 40 0 0 0 106.51334086949885 103.12207367510294 Z" fill="#E34F26" /></g>
-<g><title>Actuator (12)</title><path class="arc" d="M 117.27103715567215 58.792793080955576 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 127.01202123181265 87.16731033197462 Z" fill="#41B883" /></g>
+<g><title>Spring Core (3) - Beginner</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 194.72820377276207 81.35571386988866 L 171.2732592987212 100.06040792565067 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>Spring Web (3) - Beginner</title><path class="arc" d="M 194.72820377276207 81.35571386988866 A 70 70 0 0 1 208.24495385272763 140.576465376942 L 178.99711648727293 133.90083735825257 A 40 40 0 0 0 171.2732592987212 100.06040792565067 Z" fill="#ED8B00" /></g>
+<g><title>Spring MVC (3) - Beginner</title><path class="arc" d="M 208.24495385272763 140.576465376942 A 70 70 0 0 1 170.3718617382291 188.06782075316934 L 157.35534956470232 161.03875471609678 A 40 40 0 0 0 178.99711648727293 133.90083735825257 Z" fill="#3670A0" /></g>
+<g><title>Spring Data JPA (3) - Beginner</title><path class="arc" d="M 170.3718617382291 188.06782075316934 A 70 70 0 0 1 109.62813826177094 188.06782075316934 L 122.64465043529768 161.03875471609678 A 40 40 0 0 0 157.35534956470232 161.03875471609678 Z" fill="#239120" /></g>
+<g><title>Jackson (3) - Beginner</title><path class="arc" d="M 109.62813826177094 188.06782075316934 A 70 70 0 0 1 71.75504614727235 140.57646537694202 L 101.00288351272705 133.90083735825257 A 40 40 0 0 0 122.64465043529768 161.03875471609678 Z" fill="#F7DF1E" /></g>
+<g><title>Actuator (3) - Beginner</title><path class="arc" d="M 71.75504614727235 140.57646537694202 A 70 70 0 0 1 85.2717962272379 81.35571386988866 L 108.7267407012788 100.06040792565067 A 40 40 0 0 0 101.00288351272705 133.90083735825257 Z" fill="#5C2D91" /></g>
+<g><title>Spring Testing (3) - Beginner</title><path class="arc" d="M 85.2717962272379 81.35571386988866 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 108.7267407012788 100.06040792565067 Z" fill="#E34F26" /></g>
 <rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
-<text class="legend" x="24.0" y="220">Spring Core (36)</text>
+<text class="legend beginner" x="24.0" y="220">Spring Core (3)</text>
 <rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
-<text class="legend" x="164.0" y="220">Spring Web (36)</text>
+<text class="legend beginner" x="164.0" y="220">Spring Web (3)</text>
 <rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
-<text class="legend" x="24.0" y="240">Spring MVC (36)</text>
+<text class="legend beginner" x="24.0" y="240">Spring MVC (3)</text>
 <rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
-<text class="legend" x="164.0" y="240">RESTful APIs (36)</text>
+<text class="legend beginner" x="164.0" y="240">Spring Data JPA (3)</text>
 <rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
-<text class="legend" x="24.0" y="260">Spring Data JPA (24)</text>
+<text class="legend beginner" x="24.0" y="260">Jackson (3)</text>
 <rect x="150.0" y="252" width="8" height="8" fill="#5C2D91" rx="2" />
-<text class="legend" x="164.0" y="260">Spring Testing (24)</text>
+<text class="legend beginner" x="164.0" y="260">Actuator (3)</text>
 <rect x="10.0" y="272" width="8" height="8" fill="#E34F26" rx="2" />
-<text class="legend" x="24.0" y="280">Microservices (24)</text>
-<rect x="150.0" y="272" width="8" height="8" fill="#41B883" rx="2" />
-<text class="legend" x="164.0" y="280">Actuator (12)</text>
+<text class="legend beginner" x="24.0" y="280">Spring Testing (3)</text>
 </svg>

@@ -1,10 +1,16 @@
-<svg width="280" height="330" viewBox="0 0 280 330" xmlns="http://www.w3.org/2000/svg">
+<svg width="280" height="390" viewBox="0 0 280 390" xmlns="http://www.w3.org/2000/svg">
 <style>
     .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
     .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    .legend.expert { font-weight: bold; fill: #b8860b; }
+    .legend.advanced { font-weight: 600; fill: #24292e; }
+    .legend.intermediate { font-weight: normal; }
+    .legend.beginner { font-style: italic; opacity: 0.8; }
     @media (prefers-color-scheme: dark) {
       .title { fill: #c9d1d9; }
       .legend { fill: #8b949e; }
+      .legend.expert { fill: #e3b341; }
+      .legend.advanced { fill: #c9d1d9; }
     }
     .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
     @media (prefers-color-scheme: dark) {
@@ -13,31 +19,49 @@
     .arc:hover { opacity: 0.8; }
   </style>
 <text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">CI/CD and Automation</text>
-<g><title>Maven (48)</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 200.6217782649107 90.0 L 174.64101615137753 105.0 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
-<g><title>Bash/Zsh (48)</title><path class="arc" d="M 200.6217782649107 90.0 A 70 70 0 0 1 200.62177826491072 160.0 L 174.64101615137756 145.0 A 40 40 0 0 0 174.64101615137753 105.0 Z" fill="#ED8B00" /></g>
-<g><title>GitHub Actions (36)</title><path class="arc" d="M 200.62177826491072 160.0 A 70 70 0 0 1 158.11733315717646 192.6148078402348 L 150.35276180410085 163.63703305156272 A 40 40 0 0 0 174.64101615137756 145.0 Z" fill="#3670A0" /></g>
-<g><title>Gradle (36)</title><path class="arc" d="M 158.11733315717646 192.6148078402348 A 70 70 0 0 1 105.00000000000001 185.62177826491072 L 120.0 159.64101615137756 A 40 40 0 0 0 150.35276180410085 163.63703305156272 Z" fill="#239120" /></g>
-<g><title>Batch (36)</title><path class="arc" d="M 105.00000000000001 185.62177826491072 A 70 70 0 0 1 72.38519215976523 143.11733315717646 L 101.36296694843728 135.35276180410085 A 40 40 0 0 0 120.0 159.64101615137756 Z" fill="#F7DF1E" /></g>
-<g><title>GitLab CI (24)</title><path class="arc" d="M 72.38519215976523 143.11733315717646 A 70 70 0 0 1 72.38519215976521 106.88266684282357 L 101.36296694843726 114.64723819589919 A 40 40 0 0 0 101.36296694843728 135.35276180410085 Z" fill="#5C2D91" /></g>
-<g><title>Jenkins (24)</title><path class="arc" d="M 72.38519215976521 106.88266684282357 A 70 70 0 0 1 90.50252531694164 75.5025253169417 L 111.71572875253808 96.71572875253811 A 40 40 0 0 0 101.36296694843726 114.64723819589919 Z" fill="#E34F26" /></g>
-<g><title>AWK (24)</title><path class="arc" d="M 90.50252531694164 75.5025253169417 A 70 70 0 0 1 121.8826668428235 57.38519215976524 L 129.64723819589915 86.36296694843728 A 40 40 0 0 0 111.71572875253808 96.71572875253811 Z" fill="#41B883" /></g>
-<g><title>uv (12)</title><path class="arc" d="M 121.8826668428235 57.38519215976524 A 70 70 0 0 1 139.99999999999991 55.0 L 139.99999999999994 85.0 A 40 40 0 0 0 129.64723819589915 86.36296694843728 Z" fill="#009688" /></g>
+<g><title>Git (50) - Expert</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 199.04264372674209 87.39725778939778 L 173.7386535581383 103.51271873679873 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>Bash/Zsh (48) - Expert</title><path class="arc" d="M 199.04264372674209 87.39725778939778 A 70 70 0 0 1 204.57028296158234 152.03106653946884 L 176.89730454947562 140.44632373683933 A 40 40 0 0 0 173.7386535581383 103.51271873679873 Z" fill="#ED8B00" /></g>
+<g><title>Batch (48) - Expert</title><path class="arc" d="M 204.57028296158234 152.03106653946884 A 70 70 0 0 1 154.6454372001046 193.45079378077213 L 148.36882125720263 164.11473930329836 A 40 40 0 0 0 176.89730454947562 140.44632373683933 Z" fill="#3670A0" /></g>
+<g><title>Gradle (36) - Advanced</title><path class="arc" d="M 154.6454372001046 193.45079378077213 A 70 70 0 0 1 105.71225692391042 186.02745836709957 L 120.40700395652024 159.87283335262833 A 40 40 0 0 0 148.36882125720263 164.11473930329836 Z" fill="#239120" /></g>
+<g><title>CMake (24) - Advanced</title><path class="arc" d="M 105.71225692391042 186.02745836709957 A 70 70 0 0 1 81.3377440753386 163.19345139980842 L 106.47871090019348 146.8248293713191 A 40 40 0 0 0 120.40700395652024 159.87283335262833 Z" fill="#F7DF1E" /></g>
+<g><title>GitHub Actions (18) - Advanced</title><path class="arc" d="M 81.3377440753386 163.19345139980842 A 70 70 0 0 1 71.62356629285999 139.98877291485485 L 100.92775216734856 133.56501309420278 A 40 40 0 0 0 106.47871090019348 146.8248293713191 Z" fill="#5C2D91" /></g>
+<g><title>Make (18) - Advanced</title><path class="arc" d="M 71.62356629285999 139.98877291485485 A 70 70 0 0 1 70.74002845077656 114.84833309250344 L 100.42287340044376 119.19904748143054 A 40 40 0 0 0 100.92775216734856 133.56501309420278 Z" fill="#E34F26" /></g>
+<g><title>Poetry (15) - Intermediate</title><path class="arc" d="M 70.74002845077656 114.84833309250344 A 70 70 0 0 1 76.86700156162226 94.76385427704462 L 103.92400089235556 107.7222024440255 A 40 40 0 0 0 100.42287340044376 119.19904748143054 Z" fill="#41B883" /></g>
+<g><title>AWK (12) - Intermediate</title><path class="arc" d="M 76.86700156162226 94.76385427704462 A 70 70 0 0 1 85.90319967707879 80.57550006109251 L 109.08754267261645 99.61457146348144 A 40 40 0 0 0 103.92400089235556 107.7222024440255 Z" fill="#009688" /></g>
+<g><title>Apache Ant (12) - Intermediate</title><path class="arc" d="M 85.90319967707879 80.57550006109251 A 70 70 0 0 1 98.06334748910484 68.95254531934182 L 116.03619856520277 92.9728830396239 A 40 40 0 0 0 109.08754267261645 99.61457146348144 Z" fill="#D24939" /></g>
+<g><title>Bitbucket (8) - Intermediate</title><path class="arc" d="M 98.06334748910484 68.95254531934182 A 70 70 0 0 1 107.56512668033335 62.96791964848207 L 121.46578667447619 89.55309694198975 A 40 40 0 0 0 116.03619856520277 92.9728830396239 Z" fill="#0db7ed" /></g>
+<g><title>uv (8) - Intermediate</title><path class="arc" d="M 107.56512668033335 62.96791964848207 A 70 70 0 0 1 117.9016044433773 58.579664907326475 L 127.3723453962156 87.04552280418656 A 40 40 0 0 0 121.46578667447619 89.55309694198975 Z" fill="#2671E5" /></g>
+<g><title>Jenkins (7) - Beginner</title><path class="arc" d="M 117.9016044433773 58.579664907326475 A 70 70 0 0 1 127.42201970128293 56.13931156599517 L 132.8125826864474 85.65103518056867 A 40 40 0 0 0 127.3723453962156 87.04552280418656 Z" fill="#6DB33F" /></g>
+<g><title>GitLab CI (6) - Beginner</title><path class="arc" d="M 127.42201970128293 56.13931156599517 A 70 70 0 0 1 135.78699200455281 55.12689670817319 L 137.59256685974447 85.07251240467039 A 40 40 0 0 0 132.8125826864474 85.65103518056867 Z" fill="#000000" /></g>
+<g><title>Maven (3) - Beginner</title><path class="arc" d="M 135.78699200455281 55.12689670817319 A 70 70 0 0 1 140.0000000000001 55.0 L 140.00000000000006 85.0 A 40 40 0 0 0 137.59256685974447 85.07251240467039 Z" fill="#333333" /></g>
 <rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
-<text class="legend" x="24.0" y="220">Maven (48)</text>
+<text class="legend expert" x="24.0" y="220">Git (50)</text>
 <rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
-<text class="legend" x="164.0" y="220">Bash/Zsh (48)</text>
+<text class="legend expert" x="164.0" y="220">Bash/Zsh (48)</text>
 <rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
-<text class="legend" x="24.0" y="240">GitHub Actions (36)</text>
+<text class="legend expert" x="24.0" y="240">Batch (48)</text>
 <rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
-<text class="legend" x="164.0" y="240">Gradle (36)</text>
+<text class="legend advanced" x="164.0" y="240">Gradle (36)</text>
 <rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
-<text class="legend" x="24.0" y="260">Batch (36)</text>
+<text class="legend advanced" x="24.0" y="260">CMake (24)</text>
 <rect x="150.0" y="252" width="8" height="8" fill="#5C2D91" rx="2" />
-<text class="legend" x="164.0" y="260">GitLab CI (24)</text>
+<text class="legend advanced" x="164.0" y="260">GitHub Actions (18)</text>
 <rect x="10.0" y="272" width="8" height="8" fill="#E34F26" rx="2" />
-<text class="legend" x="24.0" y="280">Jenkins (24)</text>
+<text class="legend advanced" x="24.0" y="280">Make (18)</text>
 <rect x="150.0" y="272" width="8" height="8" fill="#41B883" rx="2" />
-<text class="legend" x="164.0" y="280">AWK (24)</text>
+<text class="legend intermediate" x="164.0" y="280">Poetry (15)</text>
 <rect x="10.0" y="292" width="8" height="8" fill="#009688" rx="2" />
-<text class="legend" x="24.0" y="300">uv (12)</text>
+<text class="legend intermediate" x="24.0" y="300">AWK (12)</text>
+<rect x="150.0" y="292" width="8" height="8" fill="#D24939" rx="2" />
+<text class="legend intermediate" x="164.0" y="300">Apache Ant (12)</text>
+<rect x="10.0" y="312" width="8" height="8" fill="#0db7ed" rx="2" />
+<text class="legend intermediate" x="24.0" y="320">Bitbucket (8)</text>
+<rect x="150.0" y="312" width="8" height="8" fill="#2671E5" rx="2" />
+<text class="legend intermediate" x="164.0" y="320">uv (8)</text>
+<rect x="10.0" y="332" width="8" height="8" fill="#6DB33F" rx="2" />
+<text class="legend beginner" x="24.0" y="340">Jenkins (7)</text>
+<rect x="150.0" y="332" width="8" height="8" fill="#000000" rx="2" />
+<text class="legend beginner" x="164.0" y="340">GitLab CI (6)</text>
+<rect x="10.0" y="352" width="8" height="8" fill="#333333" rx="2" />
+<text class="legend beginner" x="24.0" y="360">Maven (3)</text>
 </svg>

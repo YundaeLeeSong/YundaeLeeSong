@@ -2,36 +2,30 @@
   "name": "Tech Stack Portfolio",
   "categories": [
     {
-      "name": "AI & IDEs",
+      "name": "AI-Assisted Development",
       "stack": [
         {
           "name": "Android Studio",
-          "proficiency": "Advanced",
-          "length_of_exp": 48
+          "length_of_exp": 8
         },
         {
           "name": "Cursor IDE",
-          "proficiency": "Advanced",
           "length_of_exp": 12
         },
         {
           "name": "OpenAI API",
-          "proficiency": "Intermediate",
           "length_of_exp": 24
         },
         {
           "name": "Claude CLI",
-          "proficiency": "Intermediate",
           "length_of_exp": 12
         },
         {
           "name": "Gemini CLI",
-          "proficiency": "Intermediate",
           "length_of_exp": 12
         },
         {
           "name": "Copilot Agent",
-          "proficiency": "Advanced",
           "length_of_exp": 24
         }
       ]
@@ -41,43 +35,35 @@
       "stack": [
         {
           "name": "C",
-          "proficiency": "Advanced",
-          "length_of_exp": 48
-        },
-        {
-          "name": "C++",
-          "proficiency": "Advanced",
-          "length_of_exp": 48
-        },
-        {
-          "name": "C#",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
-        },
-        {
-          "name": "Java",
-          "proficiency": "Expert",
-          "length_of_exp": 60
-        },
-        {
-          "name": "Kotlin",
-          "proficiency": "Advanced",
           "length_of_exp": 24
         },
         {
+          "name": "C++",
+          "length_of_exp": 36
+        },
+        {
+          "name": "C#",
+          "length_of_exp": 8
+        },
+        {
+          "name": "Java",
+          "length_of_exp": 66
+        },
+        {
+          "name": "Kotlin",
+          "length_of_exp": 18
+        },
+        {
           "name": "Python",
-          "proficiency": "Expert",
-          "length_of_exp": 48
+          "length_of_exp": 36
         },
         {
           "name": "JavaScript",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 24
         },
         {
           "name": "TypeScript",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 3
         }
       ]
     },
@@ -85,39 +71,81 @@
       "name": "Software Engineering",
       "stack": [
         {
-          "name": "Data Structures and Algorithms",
-          "proficiency": "Expert",
+          "name": "DSA",
           "length_of_exp": 60
         },
         {
-          "name": "Test-Driven Development (TDD)",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "name": "TDD",
+          "length_of_exp": 30
         },
         {
-          "name": "Object-Oriented Programming (OOP)",
-          "proficiency": "Expert",
+          "name": "OOP principle",
           "length_of_exp": 60
         },
         {
           "name": "Design Patterns",
-          "proficiency": "Advanced",
-          "length_of_exp": 48
+          "length_of_exp": 36
+        },
+        {
+          "name": "Functional-Lambda",
+          "length_of_exp": 36
+        },
+        {
+          "name": "System Design",
+          "length_of_exp": 30
         },
         {
           "name": "Multithreading",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
-        },
-        {
-          "name": "Socket Networking",
-          "proficiency": "Intermediate",
           "length_of_exp": 24
         },
         {
-          "name": "Agile/Scrum",
-          "proficiency": "Advanced",
+          "name": "Socket Networking",
+          "length_of_exp": 48
+        },
+        {
+          "name": "Linux/Unix",
+          "length_of_exp": 48
+        },
+        {
+          "name": "Agile-Scrum",
           "length_of_exp": 36
+        }
+      ]
+    },
+    {
+      "name": "Server Development with Java",
+      "stack": [
+        {
+          "name": "SQL",
+          "length_of_exp": 36
+        },
+        {
+          "name": "Javalin",
+          "length_of_exp": 3
+        },
+        {
+          "name": "Netty",
+          "length_of_exp": 3
+        },
+        {
+          "name": "JDBC",
+          "length_of_exp": 48
+        },
+        {
+          "name": "Apache Tomcat",
+          "length_of_exp": 8
+        },
+        {
+          "name": "JUnit",
+          "length_of_exp": 36
+        },
+        {
+          "name": "Mockito",
+          "length_of_exp": 3
+        },
+        {
+          "name": "RESTful APIs",
+          "length_of_exp": 30
         }
       ]
     },
@@ -126,78 +154,31 @@
       "stack": [
         {
           "name": "Spring Core",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 3
         },
         {
           "name": "Spring Web",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 3
         },
         {
           "name": "Spring MVC",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 3
         },
         {
           "name": "Spring Data JPA",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 3
+        },
+        {
+          "name": "Jackson",
+          "length_of_exp": 3
         },
         {
           "name": "Actuator",
-          "proficiency": "Intermediate",
-          "length_of_exp": 12
+          "length_of_exp": 3
         },
         {
           "name": "Spring Testing",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
-        },
-        {
-          "name": "RESTful APIs",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
-        },
-        {
-          "name": "Microservices",
-          "proficiency": "Intermediate",
-          "length_of_exp": 24
-        }
-      ]
-    },
-    {
-      "name": "Server Development with Java",
-      "stack": [
-        {
-          "name": "Javalin",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
-        },
-        {
-          "name": "JDBC",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
-        },
-        {
-          "name": "Middleware",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
-        },
-        {
-          "name": "HTTP",
-          "proficiency": "Advanced",
-          "length_of_exp": 48
-        },
-        {
-          "name": "JSON",
-          "proficiency": "Expert",
-          "length_of_exp": 48
-        },
-        {
-          "name": "RESTful APIs",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 3
         }
       ]
     },
@@ -206,33 +187,39 @@
       "stack": [
         {
           "name": "FastAPI",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 5
         },
         {
           "name": "Pydantic",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 2
         },
         {
           "name": "Flask",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 30
+        },
+        {
+          "name": "Django",
+          "length_of_exp": 6
+        },
+        {
+          "name": "SQLAlchemy",
+          "length_of_exp": 6
         },
         {
           "name": "Flask-WTF",
-          "proficiency": "Intermediate",
-          "length_of_exp": 12
+          "length_of_exp": 15
         },
         {
           "name": "Jinja",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 15
+        },
+        {
+          "name": "Pytest",
+          "length_of_exp": 24
         },
         {
           "name": "RESTful APIs",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 30
         }
       ]
     },
@@ -241,38 +228,23 @@
       "stack": [
         {
           "name": "JSP",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 18
         },
         {
           "name": "Servlets",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 18
         },
         {
           "name": "JDBC",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
-        },
-        {
-          "name": "HTTP",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 48
         },
         {
           "name": "SOAP",
-          "proficiency": "Intermediate",
-          "length_of_exp": 24
-        },
-        {
-          "name": "XML",
-          "proficiency": "Intermediate",
-          "length_of_exp": 24
+          "length_of_exp": 20
         },
         {
           "name": "MVC Architecture",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 48
         }
       ]
     },
@@ -280,29 +252,36 @@
       "name": "Web Development with Angular",
       "stack": [
         {
+          "name": "Jest",
+          "length_of_exp": 8
+        },
+        {
           "name": "JavaScript",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 24
         },
         {
           "name": "TypeScript",
-          "proficiency": "Advanced",
           "length_of_exp": 36
         },
         {
           "name": "Angular",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 3
         },
         {
-          "name": "HTML/CSS",
-          "proficiency": "Advanced",
-          "length_of_exp": 48
+          "name": "RxJS",
+          "length_of_exp": 3
         },
         {
-          "name": "Bootstrap (SASS)",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "name": "HTML-CSS",
+          "length_of_exp": 30
+        },
+        {
+          "name": "SASS-SCSS",
+          "length_of_exp": 16
+        },
+        {
+          "name": "Bootstrap",
+          "length_of_exp": 16
         }
       ]
     },
@@ -311,28 +290,23 @@
       "stack": [
         {
           "name": "JSX",
-          "proficiency": "Intermediate",
-          "length_of_exp": 24
+          "length_of_exp": 5
         },
         {
           "name": "Components",
-          "proficiency": "Intermediate",
-          "length_of_exp": 24
+          "length_of_exp": 5
         },
         {
           "name": "Hooks",
-          "proficiency": "Intermediate",
-          "length_of_exp": 24
+          "length_of_exp": 5
         },
         {
           "name": "Tailwind CSS",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 5
         },
         {
           "name": "Responsive Design",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 12
         }
       ]
     },
@@ -341,27 +315,22 @@
       "stack": [
         {
           "name": "Qt (C++)",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 12
         },
         {
           "name": "WinForms (C#)",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 6
         },
         {
-          "name": "JavaFX-Swing (Java)",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "name": "JavaFX-Swing",
+          "length_of_exp": 48
         },
         {
           "name": "PyQt (Python)",
-          "proficiency": "Intermediate",
-          "length_of_exp": 24
+          "length_of_exp": 12
         },
         {
           "name": "MVC Architecture",
-          "proficiency": "Advanced",
           "length_of_exp": 48
         }
       ]
@@ -371,18 +340,19 @@
       "stack": [
         {
           "name": "Unity (C#)",
-          "proficiency": "Intermediate",
-          "length_of_exp": 24
+          "length_of_exp": 6
         },
         {
           "name": "OpenGL",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 5
+        },
+        {
+          "name": "GLSL",
+          "length_of_exp": 5
         },
         {
           "name": "Shading Language",
-          "proficiency": "Intermediate",
-          "length_of_exp": 24
+          "length_of_exp": 5
         }
       ]
     },
@@ -391,18 +361,15 @@
       "stack": [
         {
           "name": "Android SDK",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 8
         },
         {
           "name": "Kotlin",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 18
         },
         {
           "name": "MVVM Architecture",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 15
         }
       ]
     },
@@ -411,28 +378,23 @@
       "stack": [
         {
           "name": "MATLAB",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 24
         },
         {
           "name": "Pandas",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 18
         },
         {
           "name": "NumPy",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 18
         },
         {
           "name": "Matplotlib",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 18
         },
         {
           "name": "D3.js",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 6
         }
       ]
     },
@@ -441,68 +403,60 @@
       "stack": [
         {
           "name": "Oracle",
-          "proficiency": "Intermediate",
-          "length_of_exp": 24
-        },
-        {
-          "name": "MySQL",
-          "proficiency": "Advanced",
           "length_of_exp": 36
         },
         {
+          "name": "MySQL",
+          "length_of_exp": 8
+        },
+        {
           "name": "SQLite",
-          "proficiency": "Advanced",
-          "length_of_exp": 48
+          "length_of_exp": 15
         },
         {
           "name": "MS Access",
-          "proficiency": "Intermediate",
-          "length_of_exp": 24
+          "length_of_exp": 18
         },
         {
           "name": "Apache Derby",
-          "proficiency": "Intermediate",
-          "length_of_exp": 12
+          "length_of_exp": 24
         }
       ]
     },
     {
-      "name": "DevOps and Infrastructure",
+      "name": "Infrastructure-DevOps",
       "stack": [
         {
-          "name": "Virtualization (VMware)",
-          "proficiency": "Intermediate",
-          "length_of_exp": 24
+          "name": "VMware (VM)",
+          "length_of_exp": 50
         },
         {
-          "name": "Containerization (Docker)",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "name": "Docker (Container)",
+          "length_of_exp": 48
         },
         {
           "name": "OCI",
-          "proficiency": "Intermediate",
-          "length_of_exp": 12
+          "length_of_exp": 10
         },
         {
           "name": "PaaS (Dokku)",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 8
         },
         {
           "name": "Nginx",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 8
+        },
+        {
+          "name": "Linux Administration",
+          "length_of_exp": 8
         },
         {
           "name": "Gunicorn",
-          "proficiency": "Advanced",
-          "length_of_exp": 24
+          "length_of_exp": 7
         },
         {
           "name": "Waitress",
-          "proficiency": "Intermediate",
-          "length_of_exp": 12
+          "length_of_exp": 7
         }
       ]
     },
@@ -510,49 +464,64 @@
       "name": "CI/CD and Automation",
       "stack": [
         {
+          "name": "Git",
+          "length_of_exp": 50
+        },
+        {
           "name": "GitHub Actions",
-          "proficiency": "Advanced",
-          "length_of_exp": 36
+          "length_of_exp": 18
+        },
+        {
+          "name": "Bitbucket",
+          "length_of_exp": 8
         },
         {
           "name": "GitLab CI",
-          "proficiency": "Intermediate",
-          "length_of_exp": 24
+          "length_of_exp": 6
         },
         {
           "name": "Jenkins",
-          "proficiency": "Intermediate",
-          "length_of_exp": 24
+          "length_of_exp": 7
         },
         {
           "name": "Maven",
-          "proficiency": "Advanced",
-          "length_of_exp": 48
+          "length_of_exp": 3
         },
         {
           "name": "Gradle",
-          "proficiency": "Advanced",
           "length_of_exp": 36
         },
         {
           "name": "uv",
-          "proficiency": "Advanced",
-          "length_of_exp": 12
+          "length_of_exp": 8
         },
         {
           "name": "Bash/Zsh",
-          "proficiency": "Advanced",
           "length_of_exp": 48
         },
         {
           "name": "Batch",
-          "proficiency": "Intermediate",
-          "length_of_exp": 36
+          "length_of_exp": 48
         },
         {
           "name": "AWK",
-          "proficiency": "Intermediate",
+          "length_of_exp": 12
+        },
+        {
+          "name": "Make",
+          "length_of_exp": 18
+        },
+        {
+          "name": "CMake",
           "length_of_exp": 24
+        },
+        {
+          "name": "Apache Ant",
+          "length_of_exp": 12
+        },
+        {
+          "name": "Poetry",
+          "length_of_exp": 15
         }
       ]
     },
@@ -561,22 +530,22 @@
       "stack": [
         {
           "name": "Doxygen",
-          "proficiency": "Advanced",
           "length_of_exp": 36
         },
         {
           "name": "Javadoc",
-          "proficiency": "Expert",
           "length_of_exp": 48
         },
         {
           "name": "JSDoc",
-          "proficiency": "Advanced",
+          "length_of_exp": 24
+        },
+        {
+          "name": "Docstring",
           "length_of_exp": 24
         },
         {
           "name": "LaTeX",
-          "proficiency": "Expert",
           "length_of_exp": 48
         }
       ]

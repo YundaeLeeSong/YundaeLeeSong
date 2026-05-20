@@ -2,9 +2,15 @@
 <style>
     .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
     .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    .legend.expert { font-weight: bold; fill: #b8860b; }
+    .legend.advanced { font-weight: 600; fill: #24292e; }
+    .legend.intermediate { font-weight: normal; }
+    .legend.beginner { font-style: italic; opacity: 0.8; }
     @media (prefers-color-scheme: dark) {
       .title { fill: #c9d1d9; }
       .legend { fill: #8b949e; }
+      .legend.expert { fill: #e3b341; }
+      .legend.advanced { fill: #c9d1d9; }
     }
     .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
     @media (prefers-color-scheme: dark) {
@@ -13,28 +19,28 @@
     .arc:hover { opacity: 0.8; }
   </style>
 <text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Programming Languages</text>
-<g><title>Java (60)</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 203.06782075316934 94.62813826177093 L 176.03875471609678 107.64465043529768 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
-<g><title>C (48)</title><path class="arc" d="M 203.06782075316934 94.62813826177093 A 70 70 0 0 1 203.06782075316934 155.37186173822906 L 176.03875471609678 142.35534956470232 A 40 40 0 0 0 176.03875471609678 107.64465043529768 Z" fill="#ED8B00" /></g>
-<g><title>C++ (48)</title><path class="arc" d="M 203.06782075316934 155.37186173822906 A 70 70 0 0 1 155.576465376942 193.24495385272763 L 148.90083735825257 163.99711648727293 A 40 40 0 0 0 176.03875471609678 142.35534956470232 Z" fill="#3670A0" /></g>
-<g><title>Python (48)</title><path class="arc" d="M 155.576465376942 193.24495385272763 A 70 70 0 0 1 96.35571386988866 179.7282037727621 L 115.06040792565067 156.2732592987212 A 40 40 0 0 0 148.90083735825257 163.99711648727293 Z" fill="#239120" /></g>
-<g><title>C# (36)</title><path class="arc" d="M 96.35571386988866 179.7282037727621 A 70 70 0 0 1 71.75504614727235 140.57646537694202 L 101.00288351272705 133.90083735825257 A 40 40 0 0 0 115.06040792565067 156.2732592987212 Z" fill="#F7DF1E" /></g>
-<g><title>JavaScript (36)</title><path class="arc" d="M 71.75504614727235 140.57646537694202 A 70 70 0 0 1 76.93217924683066 94.62813826177094 L 103.96124528390322 107.64465043529768 A 40 40 0 0 0 101.00288351272705 133.90083735825257 Z" fill="#5C2D91" /></g>
-<g><title>TypeScript (36)</title><path class="arc" d="M 76.93217924683066 94.62813826177094 A 70 70 0 0 1 109.62813826177091 61.93217924683067 L 122.64465043529768 88.96124528390324 A 40 40 0 0 0 103.96124528390322 107.64465043529768 Z" fill="#E34F26" /></g>
-<g><title>Kotlin (24)</title><path class="arc" d="M 109.62813826177091 61.93217924683067 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 122.64465043529768 88.96124528390324 Z" fill="#41B883" /></g>
+<g><title>Java (66) - Expert</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 205.56207679216547 149.52782270602506 L 177.46404388123742 139.01589868915718 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>C++ (36) - Advanced</title><path class="arc" d="M 205.56207679216547 149.52782270602506 A 70 70 0 0 1 151.20290173003252 194.09772060514902 L 146.40165813144714 164.48441177437087 A 40 40 0 0 0 177.46404388123742 139.01589868915718 Z" fill="#ED8B00" /></g>
+<g><title>Python (36) - Advanced</title><path class="arc" d="M 151.20290173003252 194.09772060514902 A 70 70 0 0 1 85.5461816530651 168.98615313299194 L 108.88353237318006 150.13494464742396 A 40 40 0 0 0 146.40165813144714 164.48441177437087 Z" fill="#3670A0" /></g>
+<g><title>C (24) - Advanced</title><path class="arc" d="M 85.5461816530651 168.98615313299194 A 70 70 0 0 1 70.0168134176691 123.46585666163125 L 100.0096076672395 124.12334666378929 A 40 40 0 0 0 108.88353237318006 150.13494464742396 Z" fill="#239120" /></g>
+<g><title>JavaScript (24) - Advanced</title><path class="arc" d="M 70.0168134176691 123.46585666163125 A 70 70 0 0 1 87.52606008431486 78.6698194507612 L 110.01489147675136 98.52561111472068 A 40 40 0 0 0 100.0096076672395 124.12334666378929 Z" fill="#F7DF1E" /></g>
+<g><title>Kotlin (18) - Advanced</title><path class="arc" d="M 87.52606008431486 78.6698194507612 A 70 70 0 0 1 117.8830007511792 58.58585734779331 L 127.36171471495955 87.04906134159617 A 40 40 0 0 0 110.01489147675136 98.52561111472068 Z" fill="#5C2D91" /></g>
+<g><title>C# (8) - Intermediate</title><path class="arc" d="M 117.8830007511792 58.58585734779331 A 70 70 0 0 1 133.87079429185266 55.268853176021736 L 136.4975967382015 85.15363038629813 A 40 40 0 0 0 127.36171471495955 87.04906134159617 Z" fill="#E34F26" /></g>
+<g><title>TypeScript (3) - Beginner</title><path class="arc" d="M 133.87079429185266 55.268853176021736 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 136.4975967382015 85.15363038629813 Z" fill="#41B883" /></g>
 <rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
-<text class="legend" x="24.0" y="220">Java (60)</text>
+<text class="legend expert" x="24.0" y="220">Java (66)</text>
 <rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
-<text class="legend" x="164.0" y="220">C (48)</text>
+<text class="legend advanced" x="164.0" y="220">C++ (36)</text>
 <rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
-<text class="legend" x="24.0" y="240">C++ (48)</text>
+<text class="legend advanced" x="24.0" y="240">Python (36)</text>
 <rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
-<text class="legend" x="164.0" y="240">Python (48)</text>
+<text class="legend advanced" x="164.0" y="240">C (24)</text>
 <rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
-<text class="legend" x="24.0" y="260">C# (36)</text>
+<text class="legend advanced" x="24.0" y="260">JavaScript (24)</text>
 <rect x="150.0" y="252" width="8" height="8" fill="#5C2D91" rx="2" />
-<text class="legend" x="164.0" y="260">JavaScript (36)</text>
+<text class="legend advanced" x="164.0" y="260">Kotlin (18)</text>
 <rect x="10.0" y="272" width="8" height="8" fill="#E34F26" rx="2" />
-<text class="legend" x="24.0" y="280">TypeScript (36)</text>
+<text class="legend intermediate" x="24.0" y="280">C# (8)</text>
 <rect x="150.0" y="272" width="8" height="8" fill="#41B883" rx="2" />
-<text class="legend" x="164.0" y="280">Kotlin (24)</text>
+<text class="legend beginner" x="164.0" y="280">TypeScript (3)</text>
 </svg>

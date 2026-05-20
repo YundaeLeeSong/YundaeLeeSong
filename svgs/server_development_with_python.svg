@@ -1,10 +1,16 @@
-<svg width="280" height="290" viewBox="0 0 280 290" xmlns="http://www.w3.org/2000/svg">
+<svg width="280" height="330" viewBox="0 0 280 330" xmlns="http://www.w3.org/2000/svg">
 <style>
     .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
     .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    .legend.expert { font-weight: bold; fill: #b8860b; }
+    .legend.advanced { font-weight: 600; fill: #24292e; }
+    .legend.intermediate { font-weight: normal; }
+    .legend.beginner { font-style: italic; opacity: 0.8; }
     @media (prefers-color-scheme: dark) {
       .title { fill: #c9d1d9; }
       .legend { fill: #8b949e; }
+      .legend.expert { fill: #e3b341; }
+      .legend.advanced { fill: #c9d1d9; }
     }
     .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
     @media (prefers-color-scheme: dark) {
@@ -13,22 +19,31 @@
     .arc:hover { opacity: 0.8; }
   </style>
 <text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Server Development with Python</text>
-<g><title>Flask (36)</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 208.24495385272763 109.42353462305799 L 178.99711648727293 116.09916264174743 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
-<g><title>Jinja (36)</title><path class="arc" d="M 208.24495385272763 109.42353462305799 A 70 70 0 0 1 170.3718617382291 188.06782075316934 L 157.35534956470232 161.03875471609678 A 40 40 0 0 0 178.99711648727293 116.09916264174743 Z" fill="#ED8B00" /></g>
-<g><title>RESTful APIs (36)</title><path class="arc" d="M 170.3718617382291 188.06782075316934 A 70 70 0 0 1 85.27179622723793 168.64428613011137 L 108.72674070127881 149.93959207434935 A 40 40 0 0 0 157.35534956470232 161.03875471609678 Z" fill="#3670A0" /></g>
-<g><title>FastAPI (24)</title><path class="arc" d="M 85.27179622723793 168.64428613011137 A 70 70 0 0 1 71.75504614727235 109.423534623058 L 101.00288351272705 116.09916264174743 A 40 40 0 0 0 108.72674070127881 149.93959207434935 Z" fill="#239120" /></g>
-<g><title>Pydantic (24)</title><path class="arc" d="M 71.75504614727235 109.423534623058 A 70 70 0 0 1 109.62813826177091 61.93217924683067 L 122.64465043529768 88.96124528390324 A 40 40 0 0 0 101.00288351272705 116.09916264174743 Z" fill="#F7DF1E" /></g>
-<g><title>Flask-WTF (12)</title><path class="arc" d="M 109.62813826177091 61.93217924683067 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 122.64465043529768 88.96124528390324 Z" fill="#5C2D91" /></g>
+<g><title>Flask (30) - Advanced</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 209.17654873365274 114.29462259887278 L 179.52945641923014 118.88264148507017 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>RESTful APIs (30) - Advanced</title><path class="arc" d="M 209.17654873365274 114.29462259887278 A 70 70 0 0 1 161.1588874714635 191.72556841998386 L 152.0907928408363 163.12889623999075 A 40 40 0 0 0 179.52945641923014 118.88264148507017 Z" fill="#ED8B00" /></g>
+<g><title>Pytest (24) - Advanced</title><path class="arc" d="M 161.1588874714635 191.72556841998386 A 70 70 0 0 1 88.4993262528808 172.40971001380188 L 110.57104357307475 152.09126286502965 A 40 40 0 0 0 152.0907928408363 163.12889623999075 Z" fill="#3670A0" /></g>
+<g><title>Flask-WTF (15) - Intermediate</title><path class="arc" d="M 88.4993262528808 172.40971001380188 A 70 70 0 0 1 70.04393408554604 127.47968582134382 L 100.02510519174061 126.41696332648219 A 40 40 0 0 0 110.57104357307475 152.09126286502965 Z" fill="#239120" /></g>
+<g><title>Jinja (15) - Intermediate</title><path class="arc" d="M 70.04393408554604 127.47968582134382 A 70 70 0 0 1 85.27179622723787 81.35571386988872 L 108.72674070127879 100.0604079256507 A 40 40 0 0 0 100.02510519174061 126.41696332648219 Z" fill="#F7DF1E" /></g>
+<g><title>Django (6) - Beginner</title><path class="arc" d="M 85.27179622723787 81.35571386988872 A 70 70 0 0 1 99.6617487523464 67.79138625800157 L 116.9495707156265 92.30936357600089 A 40 40 0 0 0 108.72674070127879 100.0604079256507 Z" fill="#5C2D91" /></g>
+<g><title>SQLAlchemy (6) - Beginner</title><path class="arc" d="M 99.6617487523464 67.79138625800157 A 70 70 0 0 1 117.27103715567208 58.792793080955605 L 127.01202123181262 87.16731033197462 A 40 40 0 0 0 116.9495707156265 92.30936357600089 Z" fill="#E34F26" /></g>
+<g><title>FastAPI (5) - Beginner</title><path class="arc" d="M 117.27103715567208 58.792793080955605 A 70 70 0 0 1 133.39595693503355 55.31222047449016 L 136.22626110573347 85.17841169970866 A 40 40 0 0 0 127.01202123181262 87.16731033197462 Z" fill="#41B883" /></g>
+<g><title>Pydantic (2) - Beginner</title><path class="arc" d="M 133.39595693503355 55.31222047449016 A 70 70 0 0 1 139.99999999999991 55.0 L 139.99999999999994 85.0 A 40 40 0 0 0 136.22626110573347 85.17841169970866 Z" fill="#009688" /></g>
 <rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
-<text class="legend" x="24.0" y="220">Flask (36)</text>
+<text class="legend advanced" x="24.0" y="220">Flask (30)</text>
 <rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
-<text class="legend" x="164.0" y="220">Jinja (36)</text>
+<text class="legend advanced" x="164.0" y="220">RESTful APIs (30)</text>
 <rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
-<text class="legend" x="24.0" y="240">RESTful APIs (36)</text>
+<text class="legend advanced" x="24.0" y="240">Pytest (24)</text>
 <rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
-<text class="legend" x="164.0" y="240">FastAPI (24)</text>
+<text class="legend intermediate" x="164.0" y="240">Flask-WTF (15)</text>
 <rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
-<text class="legend" x="24.0" y="260">Pydantic (24)</text>
+<text class="legend intermediate" x="24.0" y="260">Jinja (15)</text>
 <rect x="150.0" y="252" width="8" height="8" fill="#5C2D91" rx="2" />
-<text class="legend" x="164.0" y="260">Flask-WTF (12)</text>
+<text class="legend beginner" x="164.0" y="260">Django (6)</text>
+<rect x="10.0" y="272" width="8" height="8" fill="#E34F26" rx="2" />
+<text class="legend beginner" x="24.0" y="280">SQLAlchemy (6)</text>
+<rect x="150.0" y="272" width="8" height="8" fill="#41B883" rx="2" />
+<text class="legend beginner" x="164.0" y="280">FastAPI (5)</text>
+<rect x="10.0" y="292" width="8" height="8" fill="#009688" rx="2" />
+<text class="legend beginner" x="24.0" y="300">Pydantic (2)</text>
 </svg>
