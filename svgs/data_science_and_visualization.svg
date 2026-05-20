@@ -1,0 +1,31 @@
+<svg width="280" height="290" viewBox="0 0 280 290" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
+    .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    @media (prefers-color-scheme: dark) {
+      .title { fill: #c9d1d9; }
+      .legend { fill: #8b949e; }
+    }
+    .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
+    @media (prefers-color-scheme: dark) {
+      .arc { stroke: #0d1117; }
+    }
+    .arc:hover { opacity: 0.8; }
+  </style>
+<text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Data Science and Visualization</text>
+<g><title>MATLAB (36)</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 209.2875009316653 134.96203867912996 L 179.59285767523733 130.6925935309314 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>Pandas (24)</title><path class="arc" d="M 209.2875009316653 134.96203867912996 A 70 70 0 0 1 159.72127897890007 192.16450815301482 L 151.2693022736572 163.3797189445799 A 40 40 0 0 0 179.59285767523733 130.6925935309314 Z" fill="#ED8B00" /></g>
+<g><title>NumPy (24)</title><path class="arc" d="M 159.72127897890007 192.16450815301482 A 70 70 0 0 1 87.09752979520192 170.84025137616996 L 109.77001702582967 151.1944293578114 A 40 40 0 0 0 151.2693022736572 163.3797189445799 Z" fill="#3670A0" /></g>
+<g><title>Matplotlib (24)</title><path class="arc" d="M 87.09752979520192 170.84025137616996 A 70 70 0 0 1 76.3257603251837 95.92094908986797 L 103.61472018581927 108.38339947992455 A 40 40 0 0 0 109.77001702582967 151.1944293578114 Z" fill="#239120" /></g>
+<g><title>D3.js (24)</title><path class="arc" d="M 76.3257603251837 95.92094908986797 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 103.61472018581927 108.38339947992455 Z" fill="#F7DF1E" /></g>
+<rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
+<text class="legend" x="24.0" y="220">MATLAB (36)</text>
+<rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
+<text class="legend" x="164.0" y="220">Pandas (24)</text>
+<rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
+<text class="legend" x="24.0" y="240">NumPy (24)</text>
+<rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
+<text class="legend" x="164.0" y="240">Matplotlib (24)</text>
+<rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
+<text class="legend" x="24.0" y="260">D3.js (24)</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg width="280" height="310" viewBox="0 0 280 310" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
+    .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    @media (prefers-color-scheme: dark) {
+      .title { fill: #c9d1d9; }
+      .legend { fill: #8b949e; }
+    }
+    .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
+    @media (prefers-color-scheme: dark) {
+      .arc { stroke: #0d1117; }
+    }
+    .arc:hover { opacity: 0.8; }
+  </style>
+<text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Software Engineering</text>
+<g><title>Data Structures and Algorithms (60)</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 206.57395614066075 103.36881039375368 L 178.04226065180615 112.63932022500211 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>Object-Oriented Programming (OOP) (60)</title><path class="arc" d="M 206.57395614066075 103.36881039375368 A 70 70 0 0 1 181.14496766047313 181.63118960624632 L 163.51141009169893 157.3606797749979 A 40 40 0 0 0 178.04226065180615 112.63932022500211 Z" fill="#ED8B00" /></g>
+<g><title>Design Patterns (48)</title><path class="arc" d="M 181.14496766047313 181.63118960624632 A 70 70 0 0 1 114.23128131207254 190.08435401217758 L 125.27501789261288 162.19105943553006 A 40 40 0 0 0 163.51141009169893 157.3606797749979 Z" fill="#3670A0" /></g>
+<g><title>Test-Driven Development (TDD) (36)</title><path class="arc" d="M 114.23128131207254 190.08435401217758 A 70 70 0 0 1 76.66210632737864 154.8045504095551 L 103.80691790135923 142.0311716626029 A 40 40 0 0 0 125.27501789261288 162.19105943553006 Z" fill="#239120" /></g>
+<g><title>Multithreading (36)</title><path class="arc" d="M 76.66210632737864 154.8045504095551 A 70 70 0 0 1 73.42604385933925 103.36881039375369 L 101.95773934819385 112.63932022500211 A 40 40 0 0 0 103.80691790135923 142.0311716626029 Z" fill="#F7DF1E" /></g>
+<g><title>Agile/Scrum (36)</title><path class="arc" d="M 73.42604385933925 103.36881039375369 A 70 70 0 0 1 106.27724281287993 63.65853239692955 L 120.72985303593138 89.94773279824545 A 40 40 0 0 0 101.95773934819385 112.63932022500211 Z" fill="#5C2D91" /></g>
+<g><title>Socket Networking (24)</title><path class="arc" d="M 106.27724281287993 63.65853239692955 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 120.72985303593138 89.94773279824545 Z" fill="#E34F26" /></g>
+<rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
+<text class="legend" x="24.0" y="220">Data Structures and ...</text>
+<rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
+<text class="legend" x="164.0" y="220">Object-Oriented Prog...</text>
+<rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
+<text class="legend" x="24.0" y="240">Design Patterns (48)</text>
+<rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
+<text class="legend" x="164.0" y="240">Test-Driven Developm...</text>
+<rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
+<text class="legend" x="24.0" y="260">Multithreading (36)</text>
+<rect x="150.0" y="252" width="8" height="8" fill="#5C2D91" rx="2" />
+<text class="legend" x="164.0" y="260">Agile/Scrum (36)</text>
+<rect x="10.0" y="272" width="8" height="8" fill="#E34F26" rx="2" />
+<text class="legend" x="24.0" y="280">Socket Networking (24)</text>
+</svg>

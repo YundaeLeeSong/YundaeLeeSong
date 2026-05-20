@@ -1,0 +1,31 @@
+<svg width="280" height="290" viewBox="0 0 280 290" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
+    .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    @media (prefers-color-scheme: dark) {
+      .title { fill: #c9d1d9; }
+      .legend { fill: #8b949e; }
+    }
+    .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
+    @media (prefers-color-scheme: dark) {
+      .arc { stroke: #0d1117; }
+    }
+    .arc:hover { opacity: 0.8; }
+  </style>
+<text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Web Development with Angular</text>
+<g><title>HTML/CSS (48)</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 209.61653267577913 132.31699242873574 L 179.78087581473093 129.18113853070614 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>JavaScript (36)</title><path class="arc" d="M 209.61653267577913 132.31699242873574 A 70 70 0 0 1 154.55381835724316 193.47033205136637 L 148.31646763271038 164.12590402935223 A 40 40 0 0 0 179.78087581473093 129.18113853070614 Z" fill="#ED8B00" /></g>
+<g><title>TypeScript (36)</title><path class="arc" d="M 154.55381835724316 193.47033205136637 A 70 70 0 0 1 79.37822173508931 160.00000000000003 L 105.35898384862246 145.0 A 40 40 0 0 0 148.31646763271038 164.12590402935223 Z" fill="#3670A0" /></g>
+<g><title>Bootstrap (SASS) (36)</title><path class="arc" d="M 79.37822173508931 160.00000000000003 A 70 70 0 0 1 87.97986221658239 78.16085755487995 L 110.27420698090422 98.23477574564569 A 40 40 0 0 0 105.35898384862246 145.0 Z" fill="#239120" /></g>
+<g><title>Angular (24)</title><path class="arc" d="M 87.97986221658239 78.16085755487995 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 110.27420698090422 98.23477574564569 Z" fill="#F7DF1E" /></g>
+<rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
+<text class="legend" x="24.0" y="220">HTML/CSS (48)</text>
+<rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
+<text class="legend" x="164.0" y="220">JavaScript (36)</text>
+<rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
+<text class="legend" x="24.0" y="240">TypeScript (36)</text>
+<rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
+<text class="legend" x="164.0" y="240">Bootstrap (SASS) (36)</text>
+<rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
+<text class="legend" x="24.0" y="260">Angular (24)</text>
+</svg>

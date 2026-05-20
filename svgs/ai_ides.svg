@@ -1,0 +1,34 @@
+<svg width="280" height="290" viewBox="0 0 280 290" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
+    .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    @media (prefers-color-scheme: dark) {
+      .title { fill: #c9d1d9; }
+      .legend { fill: #8b949e; }
+    }
+    .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
+    @media (prefers-color-scheme: dark) {
+      .arc { stroke: #0d1117; }
+    }
+    .arc:hover { opacity: 0.8; }
+  </style>
+<text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">AI &amp; IDEs</text>
+<g><title>Android Studio (48)</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 192.90247020479808 170.84025137616996 L 170.22998297417033 151.1944293578114 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>OpenAI API (24)</title><path class="arc" d="M 192.90247020479808 170.84025137616996 A 70 70 0 0 1 120.27872102109993 192.16450815301482 L 128.7306977263428 163.3797189445799 A 40 40 0 0 0 170.22998297417033 151.1944293578114 Z" fill="#ED8B00" /></g>
+<g><title>Copilot Agent (24)</title><path class="arc" d="M 120.27872102109993 192.16450815301482 A 70 70 0 0 1 70.71249906833471 134.96203867912996 L 100.4071423247627 130.69259353093142 A 40 40 0 0 0 128.7306977263428 163.3797189445799 Z" fill="#3670A0" /></g>
+<g><title>Cursor IDE (12)</title><path class="arc" d="M 70.71249906833471 134.96203867912996 A 70 70 0 0 1 76.32576032518372 95.92094908986795 L 103.61472018581927 108.38339947992455 A 40 40 0 0 0 100.4071423247627 130.69259353093142 Z" fill="#239120" /></g>
+<g><title>Claude CLI (12)</title><path class="arc" d="M 76.32576032518372 95.92094908986795 A 70 70 0 0 1 102.15514277810817 66.11225270181731 L 118.3743673017761 91.34985868675275 A 40 40 0 0 0 103.61472018581927 108.38339947992455 Z" fill="#F7DF1E" /></g>
+<g><title>Gemini CLI (12)</title><path class="arc" d="M 102.15514277810817 66.11225270181731 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 118.3743673017761 91.34985868675275 Z" fill="#5C2D91" /></g>
+<rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
+<text class="legend" x="24.0" y="220">Android Studio (48)</text>
+<rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
+<text class="legend" x="164.0" y="220">OpenAI API (24)</text>
+<rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
+<text class="legend" x="24.0" y="240">Copilot Agent (24)</text>
+<rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
+<text class="legend" x="164.0" y="240">Cursor IDE (12)</text>
+<rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
+<text class="legend" x="24.0" y="260">Claude CLI (12)</text>
+<rect x="150.0" y="252" width="8" height="8" fill="#5C2D91" rx="2" />
+<text class="legend" x="164.0" y="260">Gemini CLI (12)</text>
+</svg>

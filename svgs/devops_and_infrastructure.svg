@@ -1,0 +1,37 @@
+<svg width="280" height="310" viewBox="0 0 280 310" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .title { fill: #24292e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; }
+    .legend { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; }
+    @media (prefers-color-scheme: dark) {
+      .title { fill: #c9d1d9; }
+      .legend { fill: #8b949e; }
+    }
+    .arc { transition: opacity 0.2s; stroke: #ffffff; stroke-width: 1.5px; }
+    @media (prefers-color-scheme: dark) {
+      .arc { stroke: #0d1117; }
+    }
+    .arc:hover { opacity: 0.8; }
+  </style>
+<text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">DevOps and Infrastructure</text>
+<g><title>Containerization (Docker) (36)</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 209.48962118686376 116.5624323821274 L 179.70835496392215 120.17853278978708 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>Virtualization (VMware) (24)</title><path class="arc" d="M 209.48962118686376 116.5624323821274 A 70 70 0 0 1 186.41858607685566 177.3957523719771 L 166.5249063296318 154.94042992684405 A 40 40 0 0 0 179.70835496392215 120.17853278978708 Z" fill="#ED8B00" /></g>
+<g><title>PaaS (Dokku) (24)</title><path class="arc" d="M 186.41858607685566 177.3957523719771 A 70 70 0 0 1 123.24790349987094 192.96592721982364 L 130.42737342849767 163.83767269704208 A 40 40 0 0 0 166.5249063296318 154.94042992684405 Z" fill="#3670A0" /></g>
+<g><title>Nginx (24)</title><path class="arc" d="M 123.24790349987094 192.96592721982364 A 70 70 0 0 1 74.54886301202096 149.8223420929775 L 102.59935029258341 139.1841954817014 A 40 40 0 0 0 130.42737342849767 163.83767269704208 Z" fill="#239120" /></g>
+<g><title>Gunicorn (24)</title><path class="arc" d="M 74.54886301202096 149.8223420929775 A 70 70 0 0 1 82.39112938744407 85.23546772881907 L 107.08064536425374 102.27741013075376 A 40 40 0 0 0 102.59935029258341 139.1841954817014 Z" fill="#F7DF1E" /></g>
+<g><title>OCI (12)</title><path class="arc" d="M 82.39112938744407 85.23546772881907 A 70 70 0 0 1 107.46937795693621 63.0180782042753 L 121.41107311824926 89.5817589738716 A 40 40 0 0 0 107.08064536425374 102.27741013075376 Z" fill="#5C2D91" /></g>
+<g><title>Waitress (12)</title><path class="arc" d="M 107.46937795693621 63.0180782042753 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 121.41107311824926 89.5817589738716 Z" fill="#E34F26" /></g>
+<rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
+<text class="legend" x="24.0" y="220">Containerization (Do...</text>
+<rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
+<text class="legend" x="164.0" y="220">Virtualization (VMwa...</text>
+<rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
+<text class="legend" x="24.0" y="240">PaaS (Dokku) (24)</text>
+<rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
+<text class="legend" x="164.0" y="240">Nginx (24)</text>
+<rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
+<text class="legend" x="24.0" y="260">Gunicorn (24)</text>
+<rect x="150.0" y="252" width="8" height="8" fill="#5C2D91" rx="2" />
+<text class="legend" x="164.0" y="260">OCI (12)</text>
+<rect x="10.0" y="272" width="8" height="8" fill="#E34F26" rx="2" />
+<text class="legend" x="24.0" y="280">Waitress (12)</text>
+</svg>
