@@ -53,72 +53,63 @@ I possess a comprehensive skill set spanning system-level programming, scalable 
       <img src="svgs/ai_assisted_development.svg" width="280" alt="AI-Assisted Development" />
     </td>
     <td valign="top">
-      <img src="svgs/ai_ides.svg" width="280" alt="AI & IDEs" />
-    </td>
-    <td valign="top">
       <img src="svgs/programming_languages.svg" width="280" alt="Programming Languages" />
     </td>
-  </tr>
-  <tr>
     <td valign="top">
       <img src="svgs/software_engineering.svg" width="280" alt="Software Engineering" />
     </td>
+  </tr>
+  <tr>
     <td valign="top">
       <img src="svgs/server_development_with_spring_boot.svg" width="280" alt="Server Development with Spring Boot" />
     </td>
     <td valign="top">
       <img src="svgs/server_development_with_java.svg" width="280" alt="Server Development with Java" />
     </td>
-  </tr>
-  <tr>
     <td valign="top">
       <img src="svgs/server_development_with_python.svg" width="280" alt="Server Development with Python" />
     </td>
+  </tr>
+  <tr>
     <td valign="top">
       <img src="svgs/web_development_with_jakarta_ee.svg" width="280" alt="Web Development with Jakarta EE" />
     </td>
     <td valign="top">
       <img src="svgs/web_development_with_angular.svg" width="280" alt="Web Development with Angular" />
     </td>
-  </tr>
-  <tr>
     <td valign="top">
       <img src="svgs/web_development_with_react.svg" width="280" alt="Web Development with React" />
     </td>
+  </tr>
+  <tr>
     <td valign="top">
       <img src="svgs/desktop_development.svg" width="280" alt="Desktop Development" />
     </td>
     <td valign="top">
       <img src="svgs/graphics_and_game_development.svg" width="280" alt="Graphics and Game Development" />
     </td>
-  </tr>
-  <tr>
     <td valign="top">
       <img src="svgs/mobile_development.svg" width="280" alt="Mobile Development" />
     </td>
+  </tr>
+  <tr>
     <td valign="top">
       <img src="svgs/data_science_and_visualization.svg" width="280" alt="Data Science and Visualization" />
     </td>
     <td valign="top">
       <img src="svgs/databases.svg" width="280" alt="Databases" />
     </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <img src="svgs/devops_and_infrastructure.svg" width="280" alt="DevOps and Infrastructure" />
-    </td>
     <td valign="top">
       <img src="svgs/infrastructure_devops.svg" width="280" alt="Infrastructure-DevOps" />
     </td>
-    <td valign="top">
-      <img src="svgs/ci_cd_and_automation.svg" width="280" alt="CI/CD and Automation" />
-    </td>
   </tr>
   <tr>
     <td valign="top">
+      <img src="svgs/ci_cd_and_automation.svg" width="280" alt="CI/CD and Automation" />
+    </td>
+    <td valign="top">
       <img src="svgs/documentation.svg" width="280" alt="Documentation" />
     </td>
-    <td></td>
     <td></td>
   </tr>
 </table>
