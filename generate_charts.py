@@ -119,7 +119,7 @@ def main():
         
         if chart_data:
             chart_data.sort(key=lambda x: x['value'], reverse=True)
-            filename = f"assets/{sanitize_filename(cat_name)}.svg"
+            filename = f"svgs/{sanitize_filename(cat_name)}.svg"
             create_donut_svg(chart_data, cat_name, palette, filename)
 
 if __name__ == '__main__':
