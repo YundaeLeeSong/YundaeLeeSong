@@ -4,34 +4,114 @@
 Professional experience in building backend architectures, database systems, and automated CI/CD pipelines. Focused on delivering production-ready integrations and solving complex system challenges through rigorous engineering and mathematical problem-solving.
 
 Detailed project documentation, full professional experience, and technical insights are available at:
-**[yundaeleesong.github.io](https://yundaeleesong.github.io/)**
+- Online Portfolio: [yundaeleesong.github.io](https://yundaeleesong.github.io/)
+- [Full CV (Comprehensive)](https://yundaeleesong.github.io/references/cv-JaehoonSong.pdf)
+- [Technical Resume (Tech-focused)](https://yundaeleesong.github.io/references/resume-JaehoonSong.pdf)
 
 ---
 
 ### Technical Expertise
 
-**Languages** — Experienced in developing robust systems using ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=c-sharp&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white) and ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E).
+I possess a comprehensive skill set spanning system-level programming, scalable backend architectures, interactive frontends, and automated CI/CD pipelines. The following breakdown highlights the languages, frameworks, and tools I use to build robust and efficient solutions across different domains.
 
-**Frameworks & Libraries** — Building scalable applications with ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=flat-square&logo=spring&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB) and ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=flat-square&logo=flask&logoColor=white).
-
-**Infrastructure & Tools** — Streamlining development through ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat-square&logo=githubactions&logoColor=white) and ![Jenkins](https://img.shields.io/badge/jenkins-%23D24939.svg?style=flat-square&logo=jenkins&logoColor=white).
+- **AI & IDEs** — Leveraging modern AI tools and IDEs to accelerate development, ensure code quality, and improve overall productivity.
+  ![Android Studio](https://img.shields.io/badge/Android%20Studio-F7DF1E.svg?style=flat-square&logo=androidstudio&logoColor=white) **Cursor IDE** **OpenAI API** **Claude CLI** **Gemini CLI** **Copilot Agent**
+- **Programming Languages** — Experienced in developing robust systems using a diverse set of programming languages tailored to specific project needs.
+  ![C](https://img.shields.io/badge/C-41B883.svg?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-ED8B00.svg?style=flat-square&logo=cplusplus&logoColor=white) ![C#](https://img.shields.io/badge/C%23-6DB33F.svg?style=flat-square&logo=csharp&logoColor=white) **Java** ![Kotlin](https://img.shields.io/badge/Kotlin-0db7ed.svg?style=flat-square&logo=kotlin&logoColor=white) ![Python](https://img.shields.io/badge/Python-6DB33F.svg?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-0db7ed.svg?style=flat-square&logo=javascript&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-6DB33F.svg?style=flat-square&logo=typescript&logoColor=white)
+- **Software Engineering** — Applying core computer science principles, design patterns, and agile methodologies to build scalable and maintainable software.
+  **Data Structures and Algorithms** **Test-Driven Development (TDD)** **Object-Oriented Programming (OOP)** **Design Patterns** **Multithreading** **Socket Networking** **Agile/Scrum**
+- **Server Development with Spring Boot** — Building enterprise-grade backend services and RESTful APIs utilizing the Spring Boot ecosystem.
+  ![Spring Core](https://img.shields.io/badge/Spring%20Core-3670A0.svg?style=flat-square&logo=spring&logoColor=white) ![Spring Web](https://img.shields.io/badge/Spring%20Web-00599C.svg?style=flat-square&logo=spring&logoColor=white) ![Spring MVC](https://img.shields.io/badge/Spring%20MVC-F7DF1E.svg?style=flat-square&logo=spring&logoColor=white) ![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-000000.svg?style=flat-square&logo=spring&logoColor=white) **Actuator** ![Spring Testing](https://img.shields.io/badge/Spring%20Testing-000000.svg?style=flat-square&logo=spring&logoColor=white) **RESTful APIs** **Microservices**
+- **Server Development with Java** — Creating lightweight and efficient Java-based middleware and server applications.
+  **Javalin** **JDBC** **Middleware** **HTTP** ![JSON](https://img.shields.io/badge/JSON-333333.svg?style=flat-square&logo=json&logoColor=white) **RESTful APIs**
+- **Server Development with Python** — Developing rapid and scalable backend APIs using modern Python frameworks.
+  ![FastAPI](https://img.shields.io/badge/FastAPI-239120.svg?style=flat-square&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-ED8B00.svg?style=flat-square&logo=pydantic&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-3670A0.svg?style=flat-square&logo=flask&logoColor=white) ![Flask-WTF](https://img.shields.io/badge/Flask%20WTF-ED8B00.svg?style=flat-square&logo=flask&logoColor=white) ![Jinja](https://img.shields.io/badge/Jinja-6DB33F.svg?style=flat-square&logo=jinja&logoColor=white) **RESTful APIs**
+- **Web Development with Jakarta EE** — Maintaining and developing enterprise web applications using Jakarta EE standards.
+  **JSP** **Servlets** **JDBC** **HTTP** **SOAP** **XML** **MVC Architecture**
+- **Web Development with Angular** — Crafting dynamic and responsive single-page applications using Angular and TypeScript.
+  ![JavaScript](https://img.shields.io/badge/JavaScript-0db7ed.svg?style=flat-square&logo=javascript&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-6DB33F.svg?style=flat-square&logo=typescript&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-D24939.svg?style=flat-square&logo=angular&logoColor=white) ![HTML/CSS](https://img.shields.io/badge/HTML/CSS-F7DF1E.svg?style=flat-square&logo=html5&logoColor=white) ![Bootstrap (SASS)](https://img.shields.io/badge/Bootstrap%20%28SASS%29-5C2D91.svg?style=flat-square&logo=bootstrap&logoColor=white)
+- **Web Development with React** — Building interactive user interfaces and component-driven web applications with React.
+  **JSX** **Components** **Hooks** ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-000000.svg?style=flat-square&logo=tailwindcss&logoColor=white) **Responsive Design**
+- **Desktop Development** — Designing native and cross-platform desktop applications with rich graphical user interfaces.
+  ![Qt (C++)](https://img.shields.io/badge/Qt%20%28C%2B%2B%29-000000.svg?style=flat-square&logo=qt&logoColor=white) ![WinForms (C#)](https://img.shields.io/badge/WinForms%20%28C%23%29-239120.svg?style=flat-square&logo=dotnet&logoColor=white) ![JavaFX-Swing (Java)](https://img.shields.io/badge/JavaFX%20Swing%20%28Java%29-ED8B00.svg?style=flat-square&logo=java&logoColor=white) ![PyQt (Python)](https://img.shields.io/badge/PyQt%20%28Python%29-000000.svg?style=flat-square&logo=qt&logoColor=white) **MVC Architecture**
+- **Graphics and Game Development** — Developing interactive 2D/3D graphics applications and exploring game engine architectures.
+  ![Unity (C#)](https://img.shields.io/badge/Unity%20%28C%23%29-3670A0.svg?style=flat-square&logo=unity&logoColor=white) ![OpenGL](https://img.shields.io/badge/OpenGL-D24939.svg?style=flat-square&logo=opengl&logoColor=white) **Shading Language**
+- **Mobile Development** — Creating native mobile experiences with modern SDKs and architectural patterns.
+  ![Android SDK](https://img.shields.io/badge/Android%20SDK-ED8B00.svg?style=flat-square&logo=android&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-0db7ed.svg?style=flat-square&logo=kotlin&logoColor=white) **MVVM Architecture**
+- **Data Science and Visualization** — Analyzing datasets and creating compelling visual representations of complex data.
+  **MATLAB** ![Pandas](https://img.shields.io/badge/Pandas-333333.svg?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-0db7ed.svg?style=flat-square&logo=numpy&logoColor=white) **Matplotlib** ![D3.js](https://img.shields.io/badge/D3.js-2671E5.svg?style=flat-square&logo=d3dotjs&logoColor=white)
+- **Databases** — Designing, optimizing, and managing relational databases for high-performance applications.
+  ![Oracle](https://img.shields.io/badge/Oracle-000000.svg?style=flat-square&logo=oracle&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-ED8B00.svg?style=flat-square&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-41B883.svg?style=flat-square&logo=sqlite&logoColor=white) **MS Access** **Apache Derby**
+- **DevOps and Infrastructure** — Deploying and managing containerized applications and server infrastructure.
+  ![Virtualization (VMware)](https://img.shields.io/badge/Virtualization%20%28VMware%29-2671E5.svg?style=flat-square&logo=vmware&logoColor=white) ![Containerization (Docker)](https://img.shields.io/badge/Containerization%20%28Docker%29-0db7ed.svg?style=flat-square&logo=docker&logoColor=white) **OCI** ![PaaS (Dokku)](https://img.shields.io/badge/PaaS%20%28Dokku%29-5C2D91.svg?style=flat-square&logo=heroku&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-E34F26.svg?style=flat-square&logo=nginx&logoColor=white) ![Gunicorn](https://img.shields.io/badge/Gunicorn-6DB33F.svg?style=flat-square&logo=gunicorn&logoColor=white) **Waitress**
+- **CI/CD and Automation** — Automating build, test, and deployment pipelines to ensure continuous delivery.
+  ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-6DB33F.svg?style=flat-square&logo=githubactions&logoColor=white) ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-00599C.svg?style=flat-square&logo=gitlab&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-3670A0.svg?style=flat-square&logo=jenkins&logoColor=white) **Maven** ![Gradle](https://img.shields.io/badge/Gradle-E34F26.svg?style=flat-square&logo=gradle&logoColor=white) **uv** ![Bash/Zsh](https://img.shields.io/badge/Bash/Zsh-ED8B00.svg?style=flat-square&logo=gnubash&logoColor=white) **Batch** **AWK**
+- **Documentation** — Maintaining comprehensive technical documentation for codebases and APIs.
+  ![Doxygen](https://img.shields.io/badge/Doxygen-333333.svg?style=flat-square&logo=doxygen&logoColor=white) **Javadoc** **JSDoc** ![LaTeX](https://img.shields.io/badge/LaTeX-2671E5.svg?style=flat-square&logo=latex&logoColor=white)
 
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td>
-      <img src="https://quickchart.io/chart?c={type:'doughnut',data:{labels:['C/C++','C%23','Python','Java','JS'],datasets:[{data:[35,20,20,15,10],backgroundColor:['%2300599C','%23239120','%233670A0','%23ED8B00','%23F7DF1E']}]},options:{plugins:{legend:{display:false},doughnutlabel:{labels:[{text:'Languages',font:{size:18,weight:'bold'}}]}}}}" width="220" />
+    <td valign="top">
+      <img src="assets/ai_ides.svg" width="280" alt="AI & IDEs" />
     </td>
-    <td>
-      <img src="https://quickchart.io/chart?c={type:'doughnut',data:{labels:['Spring','.NET','React','Flask'],datasets:[{data:[35,30,20,15],backgroundColor:['%236DB33F','%235C2D91','%2361DAFB','%23000000']}]},options:{plugins:{legend:{display:false},doughnutlabel:{labels:[{text:'Frameworks',font:{size:18,weight:'bold'}}]}}}}" width="220" />
+    <td valign="top">
+      <img src="assets/programming_languages.svg" width="280" alt="Programming Languages" />
     </td>
-    <td>
-      <img src="https://quickchart.io/chart?c={type:'doughnut',data:{labels:['Docker','Actions','Jenkins'],datasets:[{data:[40,35,25],backgroundColor:['%230db7ed','%232671E5','%23D24939']}]},options:{plugins:{legend:{display:false},doughnutlabel:{labels:[{text:'Infrastructure',font:{size:18,weight:'bold'}}]}}}}" width="220" />
+    <td valign="top">
+      <img src="assets/software_engineering.svg" width="280" alt="Software Engineering" />
     </td>
   </tr>
+  <tr>
+    <td valign="top">
+      <img src="assets/server_development_with_spring_boot.svg" width="280" alt="Server Development with Spring Boot" />
+    </td>
+    <td valign="top">
+      <img src="assets/server_development_with_java.svg" width="280" alt="Server Development with Java" />
+    </td>
+    <td valign="top">
+      <img src="assets/server_development_with_python.svg" width="280" alt="Server Development with Python" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="assets/web_development_with_jakarta_ee.svg" width="280" alt="Web Development with Jakarta EE" />
+    </td>
+    <td valign="top">
+      <img src="assets/web_development_with_angular.svg" width="280" alt="Web Development with Angular" />
+    </td>
+    <td valign="top">
+      <img src="assets/web_development_with_react.svg" width="280" alt="Web Development with React" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="assets/desktop_development.svg" width="280" alt="Desktop Development" />
+    </td>
+    <td valign="top">
+      <img src="assets/graphics_and_game_development.svg" width="280" alt="Graphics and Game Development" />
+    </td>
+    <td valign="top">
+      <img src="assets/mobile_development.svg" width="280" alt="Mobile Development" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="assets/data_science_and_visualization.svg" width="280" alt="Data Science and Visualization" />
+    </td>
+    <td valign="top">
+      <img src="assets/databases.svg" width="280" alt="Databases" />
+    </td>
+    <td valign="top">
+      <img src="assets/devops_and_infrastructure.svg" width="280" alt="DevOps and Infrastructure" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="assets/ci_cd_and_automation.svg" width="280" alt="CI/CD and Automation" />
+    </td>
+    <td valign="top">
+      <img src="assets/documentation.svg" width="280" alt="Documentation" />
+    </td>
+    <td></td>
+  </tr>
 </table>
-
----
-
-### Resources & References
-- [Full CV (Comprehensive)](https://yundaeleesong.github.io/references/cv-JaehoonSong.pdf)
-- [Technical Resume (Tech-focused)](https://yundaeleesong.github.io/references/resume-JaehoonSong.pdf)
