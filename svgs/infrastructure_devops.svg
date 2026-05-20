@@ -19,14 +19,13 @@
     .arc:hover { opacity: 0.8; }
   </style>
 <text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Infrastructure-DevOps</text>
-<g><title>VMware (VM) (50) - Expert</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 198.5147835593046 163.41900707993034 L 173.43701917674548 146.95371833138876 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
-<g><title>Docker (Container) (48) - Expert</title><path class="arc" d="M 198.5147835593046 163.41900707993034 A 70 70 0 0 1 78.39914572185253 158.24657504469357 L 104.79951184105859 143.99804288268203 A 40 40 0 0 0 173.43701917674548 146.95371833138876 Z" fill="#ED8B00" /></g>
-<g><title>OCI (10) - Intermediate</title><path class="arc" d="M 78.39914572185253 158.24657504469357 A 70 70 0 0 1 70.14579873942255 129.5155914614522 L 100.08331356538432 127.58033797797269 A 40 40 0 0 0 104.79951184105859 143.99804288268203 Z" fill="#3670A0" /></g>
-<g><title>PaaS (Dokku) (8) - Intermediate</title><path class="arc" d="M 70.14579873942255 129.5155914614522 A 70 70 0 0 1 72.72091512893893 105.67321188317723 L 101.55480864510795 113.95612107610128 A 40 40 0 0 0 100.08331356538432 127.58033797797269 Z" fill="#239120" /></g>
-<g><title>Nginx (8) - Intermediate</title><path class="arc" d="M 72.72091512893893 105.67321188317723 A 70 70 0 0 1 83.19226586948469 84.09912784601426 L 107.53843763970553 101.6280730548653 A 40 40 0 0 0 101.55480864510795 113.95612107610128 Z" fill="#F7DF1E" /></g>
-<g><title>Linux Administration (8) - Intermediate</title><path class="arc" d="M 83.19226586948469 84.09912784601426 A 70 70 0 0 1 100.33087705962171 67.32538959697125 L 117.33192974835526 92.04307976969785 A 40 40 0 0 0 107.53843763970553 101.6280730548653 Z" fill="#5C2D91" /></g>
-<g><title>Gunicorn (7) - Beginner</title><path class="arc" d="M 100.33087705962171 67.32538959697125 A 70 70 0 0 1 119.23010265085559 58.152327160132174 L 128.13148722906033 86.8013298057898 A 40 40 0 0 0 117.33192974835526 92.04307976969785 Z" fill="#E34F26" /></g>
-<g><title>Waitress (7) - Beginner</title><path class="arc" d="M 119.23010265085559 58.152327160132174 A 70 70 0 0 1 139.99999999999986 55.0 L 139.99999999999991 85.0 A 40 40 0 0 0 128.13148722906033 86.8013298057898 Z" fill="#41B883" /></g>
+<g><title>VMware (VM) (50) - Expert</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 193.28012986862754 170.40074626239291 L 170.4457884963586 150.94328357851023 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>Docker (Container) (48) - Expert</title><path class="arc" d="M 193.28012986862754 170.40074626239291 A 70 70 0 0 1 72.18335472845656 142.346545019503 L 101.24763127340375 134.912311439716 A 40 40 0 0 0 170.4457884963586 150.94328357851023 Z" fill="#ED8B00" /></g>
+<g><title>OCI (10) - Intermediate</title><path class="arc" d="M 72.18335472845656 142.346545019503 A 70 70 0 0 1 71.4641138622374 110.75807908631563 L 100.83663649270709 116.86175947789465 A 40 40 0 0 0 101.24763127340375 134.912311439716 Z" fill="#3670A0" /></g>
+<g><title>PaaS (Dokku) (8) - Intermediate</title><path class="arc" d="M 71.4641138622374 110.75807908631563 A 70 70 0 0 1 81.03405665114119 87.27709548590971 L 106.30517522922352 103.44405456337698 A 40 40 0 0 0 100.83663649270709 116.86175947789465 Z" fill="#239120" /></g>
+<g><title>Nginx (8) - Intermediate</title><path class="arc" d="M 81.03405665114119 87.27709548590971 A 70 70 0 0 1 98.34105800268475 68.7458219181515 L 116.19489028724843 92.85475538180086 A 40 40 0 0 0 106.30517522922352 103.44405456337698 Z" fill="#F7DF1E" /></g>
+<g><title>Gunicorn (7) - Beginner</title><path class="arc" d="M 98.34105800268475 68.7458219181515 A 70 70 0 0 1 118.06592224105825 58.525221076977644 L 127.46624128060472 87.01441204398722 A 40 40 0 0 0 116.19489028724843 92.85475538180086 Z" fill="#5C2D91" /></g>
+<g><title>Waitress (7) - Beginner</title><path class="arc" d="M 118.06592224105825 58.525221076977644 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 127.46624128060472 87.01441204398722 Z" fill="#E34F26" /></g>
 <rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
 <text class="legend expert" x="24.0" y="220">VMware (VM) (50)</text>
 <rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
@@ -38,9 +37,7 @@
 <rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
 <text class="legend intermediate" x="24.0" y="260">Nginx (8)</text>
 <rect x="150.0" y="252" width="8" height="8" fill="#5C2D91" rx="2" />
-<text class="legend intermediate" x="164.0" y="260">Linux Administration...</text>
+<text class="legend beginner" x="164.0" y="260">Gunicorn (7)</text>
 <rect x="10.0" y="272" width="8" height="8" fill="#E34F26" rx="2" />
-<text class="legend beginner" x="24.0" y="280">Gunicorn (7)</text>
-<rect x="150.0" y="272" width="8" height="8" fill="#41B883" rx="2" />
-<text class="legend beginner" x="164.0" y="280">Waitress (7)</text>
+<text class="legend beginner" x="24.0" y="280">Waitress (7)</text>
 </svg>
