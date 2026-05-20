@@ -261,7 +261,7 @@
         },
         {
           "name": "TypeScript",
-          "length_of_exp": 36
+          "length_of_exp": 3
         },
         {
           "name": "Angular",
@@ -348,10 +348,6 @@
         },
         {
           "name": "GLSL",
-          "length_of_exp": 5
-        },
-        {
-          "name": "Shading Language",
           "length_of_exp": 5
         }
       ]

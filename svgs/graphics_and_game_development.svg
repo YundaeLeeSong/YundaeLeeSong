@@ -19,16 +19,13 @@
     .arc:hover { opacity: 0.8; }
   </style>
 <text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Graphics and Game Development</text>
-<g><title>Unity (C#) (6) - Beginner</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 208.24495385272763 140.576465376942 L 178.99711648727293 133.90083735825257 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
-<g><title>OpenGL (5) - Beginner</title><path class="arc" d="M 208.24495385272763 140.576465376942 A 70 70 0 0 1 129.5670413676678 194.218157835759 L 134.03830935295304 164.55323304900514 A 40 40 0 0 0 178.99711648727293 133.90083735825257 Z" fill="#ED8B00" /></g>
-<g><title>GLSL (5) - Beginner</title><path class="arc" d="M 129.5670413676678 194.218157835759 A 70 70 0 0 1 70.19573419731739 119.76889344895032 L 100.1118481127528 122.01079625654305 A 40 40 0 0 0 134.03830935295304 164.55323304900514 Z" fill="#3670A0" /></g>
-<g><title>Shading Language (5) - Beginner</title><path class="arc" d="M 70.19573419731739 119.76889344895032 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 100.1118481127528 122.01079625654305 Z" fill="#239120" /></g>
+<g><title>Unity (C#) (6) - Beginner</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 189.49747468305833 174.49747468305833 L 168.2842712474619 153.2842712474619 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>OpenGL (5) - Beginner</title><path class="arc" d="M 189.49747468305833 174.49747468305833 A 70 70 0 0 1 75.32843272420993 151.7878402655563 L 103.04481869954853 140.3073372946036 A 40 40 0 0 0 168.2842712474619 153.2842712474619 Z" fill="#ED8B00" /></g>
+<g><title>GLSL (5) - Beginner</title><path class="arc" d="M 75.32843272420993 151.7878402655563 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 103.04481869954853 140.3073372946036 Z" fill="#3670A0" /></g>
 <rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
 <text class="legend beginner" x="24.0" y="220">Unity (C#) (6)</text>
 <rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
 <text class="legend beginner" x="164.0" y="220">OpenGL (5)</text>
 <rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
 <text class="legend beginner" x="24.0" y="240">GLSL (5)</text>
-<rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
-<text class="legend beginner" x="164.0" y="240">Shading Language (5)</text>
 </svg>

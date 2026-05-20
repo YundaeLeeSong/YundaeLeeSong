@@ -19,26 +19,26 @@
     .arc:hover { opacity: 0.8; }
   </style>
 <text class="title" x="140.0" y="25" dominant-baseline="middle" text-anchor="middle">Web Development with Angular</text>
-<g><title>TypeScript (36) - Advanced</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 209.70139234065243 131.45878516243113 L 179.8293670518014 128.69073437853208 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
-<g><title>HTML-CSS (30) - Advanced</title><path class="arc" d="M 209.70139234065243 131.45878516243113 A 70 70 0 0 1 146.45878516243116 194.70139234065243 L 143.69073437853208 164.82936705180137 A 40 40 0 0 0 179.8293670518014 128.69073437853208 Z" fill="#ED8B00" /></g>
-<g><title>JavaScript (24) - Advanced</title><path class="arc" d="M 146.45878516243116 194.70139234065243 A 70 70 0 0 1 80.48480049892703 161.85025140141494 L 105.99131457081543 146.05728651509423 A 40 40 0 0 0 143.69073437853208 164.82936705180137 Z" fill="#3670A0" /></g>
-<g><title>SASS-SCSS (16) - Intermediate</title><path class="arc" d="M 80.48480049892703 161.85025140141494 A 70 70 0 0 1 71.19188302212687 112.13753375284008 L 100.68107601264393 117.6500192873372 A 40 40 0 0 0 105.99131457081543 146.05728651509423 Z" fill="#239120" /></g>
-<g><title>Bootstrap (16) - Intermediate</title><path class="arc" d="M 71.19188302212687 112.13753375284008 A 70 70 0 0 1 97.81557545345204 69.13879409038324 L 115.89461454482974 93.07931090879043 A 40 40 0 0 0 100.68107601264393 117.6500192873372 Z" fill="#F7DF1E" /></g>
-<g><title>Jest (8) - Intermediate</title><path class="arc" d="M 97.81557545345204 69.13879409038324 A 70 70 0 0 1 120.84359069495419 57.672204977902666 L 129.0534803971167 86.52697427308723 A 40 40 0 0 0 115.89461454482974 93.07931090879043 Z" fill="#5C2D91" /></g>
-<g><title>Angular (3) - Beginner</title><path class="arc" d="M 120.84359069495419 57.672204977902666 A 70 70 0 0 1 130.32905515336824 55.67126983873564 L 134.4737458019247 85.3835827649918 A 40 40 0 0 0 129.0534803971167 86.52697427308723 Z" fill="#E34F26" /></g>
-<g><title>RxJS (3) - Beginner</title><path class="arc" d="M 130.32905515336824 55.67126983873564 A 70 70 0 0 1 140.0 55.0 L 140.0 85.0 A 40 40 0 0 0 134.4737458019247 85.3835827649918 Z" fill="#41B883" /></g>
+<g><title>HTML-CSS (30) - Advanced</title><path class="arc" d="M 140.0 55.0 A 70 70 0 0 1 207.6606389596032 142.9454154473566 L 178.6632222626304 135.2545231127752 A 40 40 0 0 0 140.0 85.0 Z" fill="#00599C" /></g>
+<g><title>JavaScript (24) - Advanced</title><path class="arc" d="M 207.6606389596032 142.9454154473566 A 70 70 0 0 1 129.36601746977644 194.18755968775673 L 133.92343855415797 164.53574839300384 A 40 40 0 0 0 178.6632222626304 135.2545231127752 Z" fill="#ED8B00" /></g>
+<g><title>SASS-SCSS (16) - Intermediate</title><path class="arc" d="M 129.36601746977644 194.18755968775673 A 70 70 0 0 1 76.73502005833427 154.9590105474235 L 103.84858289047673 142.11943459852773 A 40 40 0 0 0 133.92343855415797 164.53574839300384 Z" fill="#3670A0" /></g>
+<g><title>Bootstrap (16) - Intermediate</title><path class="arc" d="M 76.73502005833427 154.9590105474235 A 70 70 0 0 1 79.73719255776439 89.38547993893457 L 105.56411003300822 104.64884567939117 A 40 40 0 0 0 103.84858289047673 142.11943459852773 Z" fill="#239120" /></g>
+<g><title>Jest (8) - Intermediate</title><path class="arc" d="M 79.73719255776439 89.38547993893457 A 70 70 0 0 1 103.47062210954583 65.2873166660851 L 119.12606977688333 90.87846666633435 A 40 40 0 0 0 105.56411003300822 104.64884567939117 Z" fill="#F7DF1E" /></g>
+<g><title>TypeScript (3) - Beginner</title><path class="arc" d="M 103.47062210954583 65.2873166660851 A 70 70 0 0 1 114.94746765498208 59.63662628733252 L 125.68426723141833 87.64950073561857 A 40 40 0 0 0 119.12606977688333 90.87846666633435 Z" fill="#5C2D91" /></g>
+<g><title>Angular (3) - Beginner</title><path class="arc" d="M 114.94746765498208 59.63662628733252 A 70 70 0 0 1 127.26100788693873 56.16891632450232 L 132.72057593539355 85.6679521854299 A 40 40 0 0 0 125.68426723141833 87.64950073561857 Z" fill="#E34F26" /></g>
+<g><title>RxJS (3) - Beginner</title><path class="arc" d="M 127.26100788693873 56.16891632450232 A 70 70 0 0 1 140.00000000000006 55.0 L 140.00000000000003 85.0 A 40 40 0 0 0 132.72057593539355 85.6679521854299 Z" fill="#41B883" /></g>
 <rect x="10.0" y="212" width="8" height="8" fill="#00599C" rx="2" />
-<text class="legend advanced" x="24.0" y="220">TypeScript (36)</text>
+<text class="legend advanced" x="24.0" y="220">HTML-CSS (30)</text>
 <rect x="150.0" y="212" width="8" height="8" fill="#ED8B00" rx="2" />
-<text class="legend advanced" x="164.0" y="220">HTML-CSS (30)</text>
+<text class="legend advanced" x="164.0" y="220">JavaScript (24)</text>
 <rect x="10.0" y="232" width="8" height="8" fill="#3670A0" rx="2" />
-<text class="legend advanced" x="24.0" y="240">JavaScript (24)</text>
+<text class="legend intermediate" x="24.0" y="240">SASS-SCSS (16)</text>
 <rect x="150.0" y="232" width="8" height="8" fill="#239120" rx="2" />
-<text class="legend intermediate" x="164.0" y="240">SASS-SCSS (16)</text>
+<text class="legend intermediate" x="164.0" y="240">Bootstrap (16)</text>
 <rect x="10.0" y="252" width="8" height="8" fill="#F7DF1E" rx="2" />
-<text class="legend intermediate" x="24.0" y="260">Bootstrap (16)</text>
+<text class="legend intermediate" x="24.0" y="260">Jest (8)</text>
 <rect x="150.0" y="252" width="8" height="8" fill="#5C2D91" rx="2" />
-<text class="legend intermediate" x="164.0" y="260">Jest (8)</text>
+<text class="legend beginner" x="164.0" y="260">TypeScript (3)</text>
 <rect x="10.0" y="272" width="8" height="8" fill="#E34F26" rx="2" />
 <text class="legend beginner" x="24.0" y="280">Angular (3)</text>
 <rect x="150.0" y="272" width="8" height="8" fill="#41B883" rx="2" />
